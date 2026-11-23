@@ -1,0 +1,4 @@
+# webmail.yoji.com.tr -> yoji.com.tr/webmail
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^webmail\.yoji\.com\.tr$ [NC]
+RewriteRule ^(.*)$ https://yoji.com.tr/webmail [R=301,L]

@@ -1,0 +1,9 @@
+# Sunucu / otomatik üretilen
+error_log
+*.log
+wp-content/cache/
+
+# OS / editör
+.DS_Store
+Thumbs.db
+*.swp
