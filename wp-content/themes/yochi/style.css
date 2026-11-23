@@ -9320,3 +9320,32 @@ body.glightbox-open {
   bottom: 2% !important;
   border-radius: 8px;
 }
+
+/* ===================== Revize 1110 ===================== */
+/* Hero banner rotator (3 görsel crossfade) */
+.yj-hero{position:relative;width:100%;aspect-ratio:2172/724;overflow:hidden;background:#f6efe6}
+.yj-hero__slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.2s ease}
+.yj-hero__slide.is-active{opacity:1}
+.yj-hero__dots{position:absolute;left:0;right:0;bottom:16px;display:flex;gap:8px;justify-content:center;z-index:2}
+.yj-hero__dots button{width:9px;height:9px;border-radius:50%;border:0;background:rgba(29,26,26,.3);cursor:pointer;padding:0}
+.yj-hero__dots button.is-active{background:#1d1a1b}
+@media(max-width:760px){.yj-hero{aspect-ratio:1080/900}}
+
+/* How It Works */
+.yj-hiw{padding:80px 0 90px;background:#fbf4ea}
+.yj-hiw__title{text-align:center;font-size:clamp(30px,4vw,52px);margin:0}
+.yj-hiw__lead{text-align:center;font-family:'Manrope',sans-serif;font-size:clamp(17px,1.6vw,22px);color:#36332e;margin:14px 0 48px}
+.yj-hiw__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1120px;margin:0 auto}
+.yj-hiw__card{background:#fff;border-radius:34px;padding:38px 28px 34px;text-align:center;box-shadow:0 12px 30px rgba(29,26,26,.05)}
+.yj-hiw__icon{width:190px;height:190px;margin:0 auto 18px;background-size:contain;background-position:center;background-repeat:no-repeat}
+.yj-hiw__card h3{font-family:'Manrope',sans-serif;font-weight:800;font-size:24px;text-transform:uppercase;color:#1d2a4d;margin:0 0 10px}
+.yj-hiw__card p{font-family:'Manrope',sans-serif;font-size:17px;line-height:1.5;color:#4a4a4a;margin:0}
+@media(max-width:860px){.yj-hiw__grid{grid-template-columns:1fr;max-width:460px}.yj-hiw__icon{width:160px;height:160px}}
+
+/* Revize 1110 · favoriler ürün + Happier Days rozeti */
+.yj-fav-product{position:relative;display:inline-block}
+.yj-fav-product .info-home-image{position:relative;z-index:1;max-width:100%}
+.yj-happier-days{position:absolute;top:-28px;right:-18px;width:150px;height:auto;z-index:2;animation:yjSpin 22s linear infinite}
+@keyframes yjSpin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.yj-happier-days{animation:none}}
+@media(max-width:760px){.yj-happier-days{width:104px;top:-16px;right:-6px}}

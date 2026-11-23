@@ -4,14 +4,19 @@ include 'header.php';
 
 
 
-<div  class="custom-banner custom-banner-hero" style="background-image: url('/wp-content/uploads/2026/09/teamp-banner-bkg-scaled.jpg');">
-	<div  class="custom-banner-inner">
-		<img style="display: none;" src="/wp-content/uploads/2026/09/yoji-slide-image.png" alt="Yo-Chi Funhouse" class="custom-banner-logo">
-		<a style="display:none;" href="/funhouse/" class="custom-banner-btn">Learn more</a>
-	</div>
+<div class="custom-banner custom-banner-hero yj-hero" id="yj-hero">
+	<div class="yj-hero__slide is-active" style="background-image:url('/wp-content/uploads/revize/home-banner-1.jpg')"></div>
+	<div class="yj-hero__slide" style="background-image:url('/wp-content/uploads/revize/home-banner-2.jpg')"></div>
+	<div class="yj-hero__slide" style="background-image:url('/wp-content/uploads/revize/home-banner-3.jpg')"></div>
+	<div class="yj-hero__dots" aria-hidden="true"><button class="is-active"></button><button></button><button></button></div>
 </div>
-
+<script>
+(function(){var h=document.getElementById('yj-hero');if(!h)return;var s=h.querySelectorAll('.yj-hero__slide'),d=h.querySelectorAll('.yj-hero__dots button'),i=0,t;function go(n){s[i].classList.remove('is-active');d[i].classList.remove('is-active');i=(n+s.length)%s.length;s[i].classList.add('is-active');d[i].classList.add('is-active');}function loop(){t=setInterval(function(){go(i+1);},5000);}d.forEach(function(b,n){b.addEventListener('click',function(){clearInterval(t);go(n);loop();});});loop();})();
+</script>
 <div  class="wave banner"> </div>
+
+<?php include 'partials/how-it-works.php'; ?>
+
 			<section  class="home-menu-slider">
 			<div  class="wrapper">
 				<h4 class="title-text">
@@ -116,7 +121,7 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 				
 					</section>
 	
-			<section  class="wthats-section">
+			<section  class="wthats-section" style="background:#fff url(/wp-content/uploads/revize/favorites-bg.jpg) center/cover;">
 			<div  class="wave flip-off-white"></div>
 			<h3 class="wthats-title">OUR FAVORITES</h3>
 			<div  class="swiper whats-home-slider">
@@ -188,7 +193,10 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 															</div>
 						</div>
 						<div class="row no-pointer">
-							<img src="/wp-content/uploads/2022/04/favorites-image.png" alt="yo-chi" class="info-home-image yochi">
+							<div class="yj-fav-product">
+					<img src="/wp-content/uploads/revize/happier-days.png" alt="Good Frozen Yogurt, Happier Days" class="yj-happier-days">
+					<img src="/wp-content/uploads/revize/fav-cup.png" alt="Yo-Ji" class="info-home-image">
+				</div>
 						</div>
 					</div>
 				</div>
