@@ -81,6 +81,10 @@ var sbiTranslations = {"share":"Share"};
 
 
 <script type="text/javascript" src=https://amplify.review-alerts.com/widget-init.js></script>
-<script src="https://yoji.com.tr/wp-content/cache/min/1/a4d86d4f913a7ab485ab08bc7af445c8.js" data-minify="1" data-rocket-defer defer></script></body>
+<!-- Revize: birleşik WP Rocket paketi yerine kaynak scriptler -->
+<script src="https://yoji.com.tr/wp-content/themes/yochi/js/swiper-bundle.min.js"></script>
+<script src="https://yoji.com.tr/wp-content/themes/yochi/js/aos.js"></script>
+<script src="https://yoji.com.tr/wp-content/themes/yochi/js/gsap.min.js"></script>
+<script src="https://yoji.com.tr/wp-content/themes/yochi/js/main.js"></script></body>
 
 </html>

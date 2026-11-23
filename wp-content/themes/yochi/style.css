@@ -17,7 +17,7 @@ body {
   background: #fff;
   padding: 0;
   margin: 0;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: normal;
   color: #333333;
 }
@@ -233,8 +233,8 @@ section .wrapper {
 }
 
 .logo {
-  width: 155px;
-  height: 65px;
+  width: 220px;
+  height: 102px;
   background: url(./img/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -492,7 +492,7 @@ footer {
   font-size: 21px;
   display: inline-block;
   padding: 10px 25px;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   transition: all 0.5s;
 }
 
@@ -511,7 +511,7 @@ footer {
 }
 
 .year b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .desc-footer p {
@@ -611,7 +611,7 @@ footer {
   color: #36332e;
   text-transform: uppercase;
   position: relative;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 #sb_instagram {
@@ -648,7 +648,7 @@ footer {
   line-height: 62px;
   text-transform: uppercase;
   color: #36332e;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 body.home .swiper-slide .title-text .underlined:after {
@@ -767,11 +767,11 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 
 .row-icon-text span h4 {
   font-size: 27px;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .row-icon-text span b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .row-icon-text:hover span b,
@@ -814,7 +814,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
   width: 100%;
   display: block;
   margin-bottom: 50px;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .page-header-wave {
@@ -877,7 +877,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .circle-yogurt-info-name {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -892,7 +892,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .circle-yogurt-info-description {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1121,7 +1121,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
   align-items: center;
   text-align: center;
   color: #36332e;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   display: block;
   padding: 1.2vh 0;
 }
@@ -1542,7 +1542,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
   font-size: 16px;
   line-height: 28px;
   color: #e8e8e8;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   margin: 10px 0 0;
 }
 
@@ -1594,7 +1594,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .share-the-chi .content p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 45px;
@@ -1605,7 +1605,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 
 .share-the-chi .content p b,
 .share-the-chi .content p strong {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .share-thee-chi-img {
@@ -1665,7 +1665,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .single-news a:not(#sb_instagram a) {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .single-news a:not(#sb_instagram a) {
@@ -1692,7 +1692,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 .single-news h1,
 .single-news h2,
 .single-news h3 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .single-news h1 {
@@ -1835,7 +1835,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
   align-items: center;
   text-align: center;
   color: #36332e;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   margin-top: 70px;
   position: relative;
 }
@@ -1885,7 +1885,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 .text-info-home {
   text-align: center;
   color: #f79d88;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 24px;
   margin: 12px 0 42px 0;
 }
@@ -1929,7 +1929,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .sub-title {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 46px;
@@ -1940,11 +1940,11 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .sub-title b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .chi-club-section .text-box-chi-club {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 29px;
@@ -1954,7 +1954,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 
 .chi-club-section .text-box-chi-club strong,
 .chi-club-section .text-box-chi-club b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .chi-bear-clud {
@@ -1971,7 +1971,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 .content-box-chi-club strong,
 .content-box-chi-club h2,
 .content-box-chi-club h3 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .link-box-chi-club .row {
@@ -2016,7 +2016,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .link-box-chi-club .row .name-links {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -2051,7 +2051,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 
 .page-template-our-story .row-list p,
 .page-template-contact-us .row-list p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -2064,7 +2064,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 
 .chi-club-section .read-more,
 .contact-section .read-more {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -2289,7 +2289,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .heart-section .heart-box h4 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -2301,7 +2301,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .heart-section .heart-box p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -2311,7 +2311,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .heart-section .heart-box b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 div.sub-intro {
@@ -2358,7 +2358,7 @@ div.sub-intro p {
 
 .title-join-section,
 .title-join-section p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -2369,7 +2369,7 @@ div.sub-intro p {
 
 .title-join-section b,
 .desc-join-section b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .title-join-section.margin {
@@ -2397,7 +2397,7 @@ div.sub-intro p {
 }
 
 .desc-join-section {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -2414,7 +2414,7 @@ div.sub-intro p {
 
 .info-join .big-title {
   display: inline;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 141.347px;
@@ -2442,7 +2442,7 @@ div.sub-intro p {
 }
 
 .info-join p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 28.5709px;
@@ -2490,7 +2490,7 @@ div.sub-intro p {
 }
 
 .h3-special-chi {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -2504,7 +2504,7 @@ div.sub-intro p {
 
 .p-special-chi,
 .p-special-chi p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -2516,7 +2516,7 @@ div.sub-intro p {
 }
 
 .p-special-chi b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .special-chi-section .h3-special-chi .underlined:after {
@@ -2607,7 +2607,7 @@ div.sub-intro p {
 }
 
 .row-news .name-news {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -2621,7 +2621,7 @@ div.sub-intro p {
 }
 
 .row-news .desc-news {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2641,7 +2641,7 @@ div.sub-intro p {
   position: absolute;
   width: 100%;
   height: 100%;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -2784,7 +2784,7 @@ div.sub-intro p {
 }
 
 .contact-form-box .wpcf7-form p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -2802,7 +2802,7 @@ div.sub-intro p {
 }
 
 .contact-form-box .wpcf7-form p b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .contact-form-box .wpcf7-form input,
@@ -2810,7 +2810,7 @@ div.sub-intro p {
   background: #f2ce2f;
   border: initial;
   outline: initial;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -2834,7 +2834,7 @@ div.sub-intro p {
   background: #f2ce2f;
   border: initial;
   outline: initial;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -2930,7 +2930,7 @@ input[type='file'] {
 
 .contact-form-box .wpcf7-form .wpcf7-submit,
 body.page-campaign .wpcf7-form .wpcf7-submit {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -2994,7 +2994,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
   display: none;
   font-size: 24px !important;
   line-height: 28px !important;
-  font-family: 'Manjari', sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 .form-success strong {
@@ -3056,7 +3056,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 .panel-heading {
   background: #f9f9fb;
   border-radius: 20px;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -3107,7 +3107,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .panel-body p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -3119,7 +3119,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 
 .panel-body p a {
   text-decoration: underline;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .panel-body li {
@@ -3142,7 +3142,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .title-faq {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -3194,7 +3194,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 .faq-question {
   list-style: none;
   cursor: pointer;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   color: #36332e;
   padding: 12px 40px 2px 0;
@@ -3316,7 +3316,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 
 .opening-hours span p,
 .opening-hours span b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -3327,11 +3327,11 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .opening-hours span b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .title-location {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -3343,7 +3343,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 
 .pin-location,
 .tel-location {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -3389,7 +3389,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .venues-title {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56.621px;
@@ -3423,7 +3423,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 
 .page-template-careers .contact-form-section .contact-form-box h4,
 .page-template-careers_built_in .contact-form-section .contact-form-box h4 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
@@ -3470,7 +3470,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .contact-form-section-career-text p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -3482,7 +3482,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .contact-form-section-career-text strong {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -3494,7 +3494,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .name-position {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -3506,7 +3506,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .desc-position {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -3518,7 +3518,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .title-careers-position {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -3535,7 +3535,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .join-title {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 152px;
@@ -3566,7 +3566,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .page-template-communi-chi .contact-form-section .contact-form-box h4 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -3603,7 +3603,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .page-template-communi-chi .title-chi-club-section {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -3616,7 +3616,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .page-template-communi-chi .title-chi-club-section b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .charities-section {
@@ -3628,7 +3628,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .title-charities {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -3663,7 +3663,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .charities-section .price {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
@@ -3675,7 +3675,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .charities-section .price b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -3692,7 +3692,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .get-involved-section .text h2 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   text-align: center;
 }
 
@@ -3701,7 +3701,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .get-involved-section .text p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -3712,11 +3712,11 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .get-involved-section .text strong {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .get-involved-section .link {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -3783,7 +3783,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .h3-get-involved {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -3799,7 +3799,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .get-involved-section .row p i {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -3811,7 +3811,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .get-involved-section .row span {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -3822,7 +3822,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .get-involved-section .row p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -3866,7 +3866,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .p-text p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -3897,7 +3897,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .p-text b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .circle-pledge-image {
@@ -3910,7 +3910,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .cares-name {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -3922,7 +3922,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 
 .our-pledge-title,
 .our-future-title {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -3933,7 +3933,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 
 .our-pledge-desc,
 .our-future-desc {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -3961,7 +3961,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
   animation: morph 8s linear infinite;
   overflow: hidden;
   border-radius: 61% 39% 39% 61% / 43% 64% 36% 57%;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 83.0468px;
@@ -3987,7 +3987,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 }
 
 .content-row-future h4 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -3998,7 +3998,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 
 .content-row-future p,
 .content-row-future li {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -4049,7 +4049,7 @@ section .wrapper.environment_intro {
 }
 
 .note-future {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -4062,7 +4062,7 @@ section .wrapper.environment_intro {
 }
 
 .content-row-pledge h4 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -4074,7 +4074,7 @@ section .wrapper.environment_intro {
 
 .content-row-pledge p,
 .content-row-pledge li {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -4223,7 +4223,7 @@ section .wrapper.environment_intro {
 }
 
 .cares-section .see-more {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -4341,7 +4341,7 @@ section .wrapper.environment_intro {
 }
 
 .order-now-title {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -4423,7 +4423,7 @@ section .wrapper.environment_intro {
 
 .h2-video {
   float: left;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 150px;
@@ -4445,7 +4445,7 @@ section .wrapper.environment_intro {
 }
 
 .h4-video p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 31px;
@@ -4487,7 +4487,7 @@ section .wrapper.environment_intro {
 }
 
 .title-video-section-at-home {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -4497,7 +4497,7 @@ section .wrapper.environment_intro {
 }
 
 .title-video-section-at-home span {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   font-size: 54px;
   line-height: 40px;
@@ -4510,7 +4510,7 @@ section .wrapper.environment_intro {
 
 .content-at-home p,
 .content-at-home b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-size: 24px;
   line-height: 40px;
@@ -4518,7 +4518,7 @@ section .wrapper.environment_intro {
 }
 
 .content-at-home b {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .content-at-home {
@@ -4792,7 +4792,7 @@ form.cf7mls input.wpcf7-form-control.wpcf7-submit:hover {
 
 .cf7mls_next,
 .cf7mls_back {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -4982,7 +4982,7 @@ form.cf7mls input.wpcf7-form-control.wpcf7-submit:hover {
 .toppings-prev,
 .environment-next,
 .environment-prev {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 37px;
@@ -5086,7 +5086,7 @@ form.cf7mls input.wpcf7-form-control.wpcf7-submit:hover {
 .content-page h2,
 .content-page h3,
 .content-page strong {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
 }
 
@@ -5147,7 +5147,7 @@ input[type='file']::file-selector-button {
   line-height: 50px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   border-radius: 124px;
 }
 
@@ -5247,7 +5247,7 @@ input[type='file']::file-selector-button {
 }
 
 .content-box-gift-card h2 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .content-box-gift-card li {
@@ -5263,7 +5263,7 @@ input[type='file']::file-selector-button {
 
 .content-box-gift-card b,
 .content-box-gift-card strong {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .yogurt-section.ogg-section,
@@ -5351,7 +5351,7 @@ input[type='file']::file-selector-button {
 }
 
 .key-stats-section .stats-section-title {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 46px;
   line-height: 50px;
   text-align: center;
@@ -5408,7 +5408,7 @@ input[type='file']::file-selector-button {
 }
 
 .key-stats-section .stat-value {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 40px;
   font-weight: 800;
   color: #36332e;
@@ -7261,7 +7261,7 @@ input[type='file']::file-selector-button {
 
   .h2-video {
     float: left;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 86px;
@@ -8288,7 +8288,7 @@ input[type='file']::file-selector-button {
   line-height: 20px !important;
   font-size: 18px;
   font-weight: normal;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Manrope', sans-serif;
   border-radius: 8px;
   margin-right: 4px;
 }
@@ -9312,3 +9312,11 @@ body.glightbox-open {
 	}
 }
 
+
+/* === Revize 1110: GENEL heading efekti — eski kalın renk vuruşu yerine ince alt çizgi === */
+.underlined:after {
+  height: 12% !important;
+  top: auto !important;
+  bottom: 2% !important;
+  border-radius: 8px;
+}

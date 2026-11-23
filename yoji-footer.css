@@ -1,5 +1,5 @@
 /* Yo-Ji footer · style.css'in altına ya da yoji.css'e ekleyin (görseller ./img/ içinde) */
-footer.yj-footer{--card:clamp(340px,23.3vw,470px);--ink:#36332e;--cream:#fdf4ec;--yellow:#fbd66a;position:relative;overflow:hidden;height:auto;padding:0;background:var(--cream);color:var(--ink);font-family:'Manjari',sans-serif}
+footer.yj-footer{--card:clamp(340px,23.3vw,470px);--ink:#36332e;--cream:#fdf4ec;--yellow:#fbd66a;position:relative;overflow:hidden;height:auto;padding:0;background:var(--cream);color:var(--ink);font-family:'Manrope',sans-serif}
 .yj-footer *{box-sizing:border-box}
 .yj-footer a{color:inherit;text-decoration:none}
 :where(.yj-footer) ul{list-style:none;margin:0;padding:0}

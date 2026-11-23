@@ -9,9 +9,9 @@
 <link data-rocket-prefetch href="https://fonts.googleapis.com" rel="dns-prefetch">
 <link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
 <link data-rocket-prefetch href="https://amplify.review-alerts.com" rel="dns-prefetch">
-<link data-rocket-preload as="style" href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&#038;display=swap" rel="preload">
-<link href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&#038;display=swap" media="print" onload="this.media=&#039;all&#039;" rel="stylesheet">
-<noscript data-wpr-hosted-gf-parameters=""><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&#038;display=swap"></noscript><link rel="preload" data-rocket-preload as="image" href="https://yoji.com.tr/wp-content/uploads/2026/09/teamp-banner-bkg-scaled.jpg" fetchpriority="high">
+<link data-rocket-preload as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&#038;display=swap" rel="preload">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&#038;display=swap" media="print" onload="this.media=&#039;all&#039;" rel="stylesheet">
+<noscript data-wpr-hosted-gf-parameters=""><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&#038;display=swap"></noscript><link rel="preload" data-rocket-preload as="image" href="https://yoji.com.tr/wp-content/uploads/2026/09/teamp-banner-bkg-scaled.jpg" fetchpriority="high">
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
@@ -45,7 +45,7 @@
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 </style>
-<link data-minify="1" rel='stylesheet' id='sbi-tokens-local-css' href='https://yoji.com.tr/wp-content/cache/min/1/wp-content/plugins/instagram-feed-pro/assets/tokens/sb-tokens-local.css?ver=1790480713' media='all' />
+<link data-minify="1" rel='stylesheet' id='sbi-tokens-local-css' href='https://yoji.com.tr/wp-content/plugins/instagram-feed-pro/assets/tokens/sb-tokens-local.css?ver=1790480713' media='all' />
 <link rel='stylesheet' id='sbi_styles-css' href='https://yoji.com.tr/wp-content/plugins/instagram-feed-pro/css/sbi-styles.min.css?ver=6.13.1' media='all' />
 <style id="wp-block-library-inline-css">
 :root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
@@ -63,8 +63,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=global-styles-inline-css */
 </style>
 
-<link data-minify="1" rel='stylesheet' id='cf7cf-style-css' href='https://yoji.com.tr/wp-content/cache/min/1/wp-content/plugins/cf7-conditional-fields/style.css?ver=1790480713' media='all' />
-<link data-minify="1" rel='stylesheet' id='cf7mls-css' href='https://yoji.com.tr/wp-content/cache/min/1/wp-content/plugins/cf7-multi-step/assets/frontend/css/cf7mls.css?ver=1790480713' media='all' />
+<link data-minify="1" rel='stylesheet' id='cf7cf-style-css' href='https://yoji.com.tr/wp-content/plugins/cf7-conditional-fields/style.css?ver=1790480713' media='all' />
+<link data-minify="1" rel='stylesheet' id='cf7mls-css' href='https://yoji.com.tr/wp-content/plugins/cf7-multi-step/assets/frontend/css/cf7mls.css?ver=1790480713' media='all' />
 <link rel='stylesheet' id='cf7mls_animate-css' href='https://yoji.com.tr/wp-content/plugins/cf7-multi-step/assets/frontend/animate/animate.min.css?ver=2.9.0' media='all' />
 <script id="jquery-core-js" src="https://yoji.com.tr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
 <script id="jquery-migrate-js" src="https://yoji.com.tr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
@@ -77,9 +77,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png" />
 <meta name="msapplication-TileImage" content="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png" />
-	<link data-minify="1" href="https://yoji.com.tr/wp-content/cache/min/1/wp-content/themes/yochi/style.css?ver=1790480713" rel="stylesheet" />
-	<link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/cache/min/1/wp-content/themes/yochi/css/swiper-bundle.min.css?ver=1790480713" />
-	<link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/cache/min/1/wp-content/themes/yochi/css/aos.css?ver=1790480713" />
+	<link data-minify="1" href="https://yoji.com.tr/wp-content/themes/yochi/style.css?ver=1790480713" rel="stylesheet" />
+	<link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/swiper-bundle.min.css?ver=1790480713" />
+	<link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/aos.css?ver=1790480713" />
 	<script src='https://yoji.com.tr/wp-content/themes/yochi/js/jquery.min.js'></script>
 	
 	
@@ -133,4 +133,4 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <li id="menu-item-2629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2629"><a href="/contact.php/#yochi-faq">FAQs</a></li>
 <li id="menu-item-2629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2629"><a href="#">TR/EN</a></li>
 </li>
-</ul></div>	</div><link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/cache/min/1/wp-content/themes/yochi/css/camp.css?ver=1790480713" />
+</ul></div>	</div><link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/camp.css?ver=1790480713" />
