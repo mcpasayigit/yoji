@@ -9349,3 +9349,13 @@ body.glightbox-open {
 @keyframes yjSpin{to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.yj-happier-days{animation:none}}
 @media(max-width:760px){.yj-happier-days{width:104px;top:-16px;right:-6px}}
+
+/* Revize 1110 · FRUITS statik segment */
+.yj-fruits-section{padding:40px 0 70px;text-align:center}
+.yj-fruits-title{font-size:clamp(30px,4vw,52px);margin:0 0 6px}
+.yj-fruits-lead{font-family:'Manrope',sans-serif;font-size:clamp(16px,1.5vw,21px);color:#36332e;margin:0 auto 40px;max-width:640px}
+.yj-fruits-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;max-width:1120px;margin:0 auto}
+.yj-fruit-card{display:flex;flex-direction:column;align-items:center}
+.yj-fruit-img{width:100%;aspect-ratio:1/1;background-size:contain;background-position:center;background-repeat:no-repeat}
+.yj-fruit-card h5{font-family:'Manrope',sans-serif;font-weight:700;font-size:19px;color:#36332e;margin:10px 0 0;text-transform:capitalize}
+@media(max-width:860px){.yj-fruits-grid{grid-template-columns:repeat(2,1fr);max-width:420px;gap:10px}}

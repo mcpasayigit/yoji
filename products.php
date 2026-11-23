@@ -41,7 +41,6 @@ $yj_t = function ($v) use ($yj_lang) {
  * ------------------------------------------------------------------------- */
 $yj_og = [
     ['name' => 'Signature Tart',      'img' => 'urunler/yoji_f_signature.png',      'labels' => ['sig-tart-gf', 'sig-tart-the-og'], 'desc' => 'Fresh, smooth and perfectly balanced.'],
-    ['name' => 'Salted Butterscotch', 'img' => 'urunler/yoji_f_salted.png', 'labels' => ['salted-butterscotch-gf'],          'desc' => 'Creamy caramel with a soft salty finish.'],
     ['name' => 'Classic Vanilla',     'img' => 'urunler/yoji_f_vanilla.png',             'labels' => ['vanilla-gf'],                      'desc' => 'Light, smooth and timeless.'],
     ['name' => 'Choccy',              'img' => 'urunler/yoji_f_choccy.png',           'labels' => ['chocolate-gf-vf'],                 'desc' => 'Rich chocolate flavour, bold and indulgent.'],
     ['name' => 'Strawberry Cream',    'img' => 'urunler/yoji_f_strawberry.png',    'labels' => ['strawberry-cream-gf'],             'desc' => 'Creamy strawberry flavour made with real strawberries.'],
@@ -74,26 +73,35 @@ $yj_groups = [
     'sauce'  => ['label' => ['tr' => 'Sos',    'en' => 'Sauce'],   'color' => '#a8735a'],
 ];
 $yj_toppings = [
-    // Meyveler
-    ['g' => 'fruit',  'img' => 'urunler/topping_granola_keten.png', 'name' => ['tr' => 'Çilek',      'en' => 'Honey & Flaxseed Granola']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_granola_kakao.png', 'name' => ['tr' => 'Blueberry',   'en' => 'Cocoa Granola']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_ceviz.png', 'name' => ['tr' => 'Muz',         'en' => 'Walnuts']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_mini_mm.png', 'name' => ['tr' => 'Üzüm',        'en' => 'Mini M&M’s']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_damlacikolata.png', 'name' => ['tr' => 'Mango',       'en' => 'Chocolate Chips']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_chia.png', 'name' => ['tr' => 'Ananas',      'en' => 'Chia Seeds']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_lotus.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Lotus Crumble']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_pastas.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Sprinkles']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_file_fistik.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Sliced Peanuts']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_brownie.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Brownie']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_cookie.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Cookie Dough']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_krep.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Crepe Crunch']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_cicibebe.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Cici Bebe Biscuit']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_dubai.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Dubai Chocolate']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_jelibon.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Gummy Candy']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_rulokat.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Rulokat']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_hcevizi.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Coconut']],
-    ['g' => 'fruit',  'img' => 'urunler/topping_pirinc.png', 'name' => ['tr' => 'Karpuz',      'en' => 'Puffed Rice']],
+    // Çıtır
+    ['g' => 'crunch', 'img' => 'urunler/topping_granola_keten.png', 'name' => ['tr' => 'Granola (Ballı Keten)', 'en' => 'Honey & Flaxseed Granola']],
+    ['g' => 'crunch', 'img' => 'urunler/topping_granola_kakao.png', 'name' => ['tr' => 'Granola (Kakaolu)', 'en' => 'Cocoa Granola']],
+    ['g' => 'crunch', 'img' => 'urunler/topping_ceviz.png', 'name' => ['tr' => 'Ceviz', 'en' => 'Walnuts']],
+    ['g' => 'crunch', 'img' => 'urunler/topping_chia.png', 'name' => ['tr' => 'Chia Tohumu', 'en' => 'Chia Seeds']],
+    ['g' => 'crunch', 'img' => 'urunler/topping_lotus.png', 'name' => ['tr' => 'Lotus Crumble', 'en' => 'Lotus Crumble']],
+    ['g' => 'crunch', 'img' => 'urunler/topping_file_fistik.png', 'name' => ['tr' => 'File Yer Fıstığı', 'en' => 'Sliced Peanuts']],
+    ['g' => 'crunch', 'img' => 'urunler/topping_krep.png', 'name' => ['tr' => 'Krep Kırığı', 'en' => 'Crepe Crunch']],
+    ['g' => 'crunch', 'img' => 'urunler/topping_hcevizi.png', 'name' => ['tr' => 'Hindistan Cevizi', 'en' => 'Coconut']],
+    ['g' => 'crunch', 'img' => 'urunler/topping_pirinc.png', 'name' => ['tr' => 'Pirinç Patlağı', 'en' => 'Puffed Rice']],
+    // Tatlı
+    ['g' => 'sweet', 'img' => 'urunler/topping_mini_mm.png', 'name' => ['tr' => 'Mini M&M', 'en' => 'Mini M&M\'s']],
+    ['g' => 'sweet', 'img' => 'urunler/topping_damlacikolata.png', 'name' => ['tr' => 'Damla Çikolata', 'en' => 'Chocolate Chips']],
+    ['g' => 'sweet', 'img' => 'urunler/topping_pastas.png', 'name' => ['tr' => 'Pasta Süsü', 'en' => 'Sprinkles']],
+    ['g' => 'sweet', 'img' => 'urunler/topping_brownie.png', 'name' => ['tr' => 'Brownie', 'en' => 'Brownie']],
+    ['g' => 'sweet', 'img' => 'urunler/topping_cookie.png', 'name' => ['tr' => 'Cookie Dough', 'en' => 'Cookie Dough']],
+    ['g' => 'sweet', 'img' => 'urunler/topping_cicibebe.png', 'name' => ['tr' => 'Cici Bebe', 'en' => 'Cici Bebe']],
+    ['g' => 'sweet', 'img' => 'urunler/topping_dubai.png', 'name' => ['tr' => 'Dubai Çikolata', 'en' => 'Dubai Chocolate']],
+    ['g' => 'sweet', 'img' => 'urunler/topping_jelibon.png', 'name' => ['tr' => 'Jelibon', 'en' => 'Gummy Candy']],
+    ['g' => 'sweet', 'img' => 'urunler/topping_rulokat.png', 'name' => ['tr' => 'Rulokat', 'en' => 'Rulokat']],
+];
 
+/* FRUITS segmenti */
+$yj_fruits = [
+    ['g' => 'fruit', 'img' => 'urunler/fruit_cilek.png', 'name' => ['tr' => 'Çilek', 'en' => 'Strawberry']],
+    ['g' => 'fruit', 'img' => 'urunler/fruit_muz.png', 'name' => ['tr' => 'Muz', 'en' => 'Banana']],
+    ['g' => 'fruit', 'img' => 'urunler/fruit_yabanmersini.png', 'name' => ['tr' => 'Yaban Mersini', 'en' => 'Blueberry']],
+    ['g' => 'fruit', 'img' => 'urunler/fruit_ananas.png', 'name' => ['tr' => 'Ananas', 'en' => 'Pineapple']],
+    ['g' => 'fruit', 'img' => 'urunler/fruit_mango.png', 'name' => ['tr' => 'Mango', 'en' => 'Mango']],
 ];
 $yj_sauces = [
     ['g' => 'sauce', 'img' => 'urunler/sauce_nutella.png', 'color' => '#74391f', 'name' => ['tr' => 'Nutella',            'en' => 'Nutella']],
@@ -537,7 +545,7 @@ $yj_sauce_strip = function ($items) use ($yj_up, $yj_t, $yj_lang) { ?>
 </style>
 
 <section class="page-header">
-    <div class="page-header-background" style="background:url(https://yoji.com.tr/img/products-banner.jpg);"></div>
+    <div class="page-header-background" style="background:url(/wp-content/uploads/revize/products-banner.jpg);"></div>
     <div class="wrapper">
         <h2 class="page-title" data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
             <?= yj_h($yj_t(['tr' => '', 'en' => 'Our'])) ?>
@@ -547,34 +555,7 @@ $yj_sauce_strip = function ($items) use ($yj_up, $yj_t, $yj_lang) { ?>
     <div class="wave inner"></div>
 </section>
 
-<section class="image-text-section">
-    <div class="wrapper grid-box row-3-1">
-        <div class="content-box">
-            <h4 class="title-text" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                <?= yj_h($yj_t(['tr' => 'KENDİ KASEN.', 'en' => 'YOUR BOWL.'])) ?>
-                <span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'KENDİ TARZIN.', 'en' => 'YOUR WAY.'])) ?></b></span>
-            </h4>
-            <div class="description">
-                <?php if ($yj_lang === 'tr'): ?>
-                <p>Yoji bir tabanla başlar, canının istediği yerde biter. Frozen yogurtunu ya da açaíni seç; taze meyve, çıtır topping'ler ve favori sosunu ekle. <strong>Klasik kal, karıştır ya da tamamen sana özel bir kase yarat.</strong></p>
-                <ul>
-                    <li>Frozen Yogurt &amp; Açaí</li>
-                    <li>Taze meyve, topping ve soslar</li>
-                    <li>Faydalı probiyotikler, canlı ve aktif kültürler</li>
-                </ul>
-                <?php else: ?>
-                <p>Yoji starts with a base and ends wherever you want it to. Choose your frozen yogurt or açaí, add fresh fruit, crunchy toppings and your favourite sauce. <strong>Keep it classic, mix things up, or create something completely your own.</strong></p>
-                <ul>
-                    <li>Frozen Yogurt &amp; Açaí</li>
-                    <li>Fresh fruit, Toppings &amp; Sauces</li>
-                    <li>Beneficial probiotics, live &amp; active cultures</li>
-                </ul>
-                <?php endif; ?>
-            </div>
-        </div>
-        <div class="image-box hide-mobile yochi"><img src="<?= yj_h($yj_up . '2022/07/yochi-cup-animation.gif') ?>" alt=""></div>
-    </div>
-</section>
+<?php include 'partials/how-it-works.php'; ?>
 
 <?php
 $yj_info = [
@@ -664,6 +645,22 @@ $yj_info = [
     </div>
 </section>
 <?php endif; ?>
+
+<!-- ============ FRUITS (statik ızgara, swiper'a dokunmaz) ============ -->
+<section class="yj-fruits-section" id="fruits">
+    <div class="wrapper">
+        <h4 class="title-text yj-fruits-title"><span class="underlined"><b><?= yj_h($yj_t(['tr' => 'MEYVELER', 'en' => 'FRUITS'])) ?></b></span></h4>
+        <p class="yj-fruits-lead"><?= yj_h($yj_t(['tr' => 'Taze meyvelerle kaseni tazele.', 'en' => 'Top your bowl with fresh, juicy fruit.'])) ?></p>
+        <div class="yj-fruits-grid">
+            <?php foreach ($yj_fruits as $fr): ?>
+                <div class="yj-fruit-card">
+                    <div class="yj-fruit-img" role="img" aria-label="<?= yj_h($yj_t($fr['name'])) ?>" style="background-image:url('<?= yj_h($yj_up . $fr['img']) ?>')"></div>
+                    <h5><?= yj_h($yj_t($fr['name'])) ?></h5>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
 
 <!-- ============ TOPPINGS ============ -->
 <?php $yj_slider(
