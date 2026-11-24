@@ -1,12 +1,19 @@
 ---
 deployment:
   tasks:
-    # 1) Belge kökü (document root). cPanel > Domains'te yoji.com.tr'nin "Document Root" değerine bak.
-    #    ANA DOMAIN ise aşağıdaki satır doğrudur (public_html).
-    #    ADDON/eklenti domain ise bu satırı şununla değiştir:
-    #        - export DEPLOYPATH="$HOME/public_html/yoji.com.tr/"
-    #    ($HOME zaten /home/<cpanel_kullanıcı_adın> demektir; kullanıcı adını yazmana gerek yok.)
+    # === Deploy hedefi (document root) ===
+    # cPanel > Domains'te yoji.com.tr'nin "Document Root" değerine bak.
+    #   ANA DOMAIN ise:  $HOME/public_html/
+    #   ADDON ise genelde: $HOME/public_html/yoji.com.tr/
+    # Doğru olanı bırak, diğerini sil.
     - export DEPLOYPATH="$HOME/public_html/"
-    # 2) Repoyu public_html'e birebir aynalar: repoda olmayanları SİLER (--delete).
-    #    .git, deploy dosyaları ve sunucudaki .htaccess korunur.
-    - /usr/bin/rsync -a --delete --exclude='.git' --exclude='.gitignore' --exclude='.cpanel.yml' --exclude='README.md' --exclude='.htaccess' ./ "$DEPLOYPATH"
+
+    # === Teşhis: nereye deploy edildiğini her zaman yazılabilir $HOME'a kaydet ===
+    - /bin/echo "diag $(date) HOME=$HOME DEPLOYPATH=$DEPLOYPATH rsync=$(command -v rsync)" > "$HOME/yoji-deploy-diag.txt"
+
+    # === Dosyaları kopyala (GÜVENLİ: --delete YOK) ===
+    - rsync -a --exclude='.git' --exclude='.gitignore' --exclude='.cpanel.yml' --exclude='README.md' --exclude='.htaccess' ./ "$DEPLOYPATH"
+
+    # === Web'den görünür işaret ===
+    # Deploy doğru klasöre gittiyse  yoji.com.tr/yoji-deploy.txt  açılır.
+    - /bin/echo "YOJI DEPLOY OK $(date) -> $DEPLOYPATH" > "$DEPLOYPATH/yoji-deploy.txt"
