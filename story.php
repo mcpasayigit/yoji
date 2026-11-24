@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 <section  class="page-header bg-video-wrap">
 	<!-- <video src="https://yoji.com.tr/wp-content/uploads/2022/06/banner_our_story.mp4" loop muted autoplay></video> -->
-	<div  class="page-header-background" style="background: url(https://yoji.com.tr/img/story-banner.jpg); display: block !important;"></div>
+	<div  class="page-header-background" style="background: url(/wp-content/uploads/revize/story-banner.jpg); display: block !important;"></div>
 	<div  class="wrapper">
 		<h2 class="page-title" data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
 			<span class="underlined" data-aos="line-text">
@@ -36,7 +36,7 @@ And somewhere between the first swirl and the last topping, something simple hap
 			</div>
 		</section>
 	
-<section >
+<section class="yj-story-note">
 	<div  class="wrapper sub-intro">
 		<p>At Yoji, we believe a bowl can be more than just something you eat.
 It can be a small pause in the day, a little mood boost, and a moment that
@@ -47,18 +47,9 @@ something that fits exactly how you feel.
 Simple, joyful and made your way.
 Because sometimes the best part of the day is not the big plan.
 It is a little break from all that.
-Yoji. Taste of Life.</strong></p>
+Yoji. Taste of Life.</p>
 	</div>
 </section>
-
-<section  class="video-section">
-	<div  class="wrapper">
-		<div  class="video-box" style="background-image: url(https://yoji.com.tr/img/story-banner.jpg);">
-			<div class="play-btn" style="display: none;"></div>
-		</div>
-	</div>
-</section>
-
 
 <div  class="video-popup">
 	<div  class="close-popup"></div>

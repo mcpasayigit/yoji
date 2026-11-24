@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 
 <section  class="page-header">
-   <div  class="page-header-background" style="background: url(https://yoji.com.tr/img/contact-banner.jpg);"></div>
+   <div  class="page-header-background" style="background: url(/wp-content/uploads/revize/contact-banner.jpg);"></div>
    <div  class="wrapper">
       <h2 class="page-title aos-no-animate" data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
          <span class="underlined" data-aos="line-text">
@@ -19,8 +19,8 @@ include 'header.php';
       <div  class="grid-box link-box-chi-club row-2 story">
 
          <div class="row-list no-animate" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600" data-aos-once="true">
-            <a href="mailto:jointheteam@yochi.com.au">
-               <div class="row" style="background: url(https://yoji.com.tr/img/contact-career.jpg);">
+            <a href="mailto:career@yoji.com.tr">
+               <div class="row" style="background: url(/wp-content/uploads/revize/career.jpg);">
                   <span class="name-links"><span class="underlined" data-aos="line-text"><b>Careers</b></span></span>
                </div>
             </a>
@@ -29,8 +29,8 @@ include 'header.php';
          </div>
 
          <div class="row-list no-animate" data-aos="fade-up" data-aos-delay="800" data-aos-duration="600" data-aos-once="true">
-            <a href="mailto:franchise@yochi.com.au">
-               <div class="row" style="background: url(https://yoji.com.tr/img/contact-franchising.jpg);">
+            <a href="mailto:franchise@yoji.com.tr">
+               <div class="row" style="background: url(/wp-content/uploads/revize/franchise.jpg);">
                   <span class="name-links"><span class="underlined" data-aos="line-text"><b>Franchising </b></span></span>
                </div>
             </a>

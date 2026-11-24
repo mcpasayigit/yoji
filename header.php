@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<title>Yo-Ji Self-Serve Frozen Yogurt and Açaí - Share the Chi</title>
+	<title>Yo-Ji · Frozen Yogurt &amp; Açaí</title>
 <link data-rocket-prefetch href="https://fonts.googleapis.com" rel="dns-prefetch">
 <link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
 <link data-rocket-prefetch href="https://amplify.review-alerts.com" rel="dns-prefetch">
@@ -15,25 +15,25 @@
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
-	<meta name="description" content="Premium self-serve frozen yogurt and açaí to make you happy. Yo-Chi is proudly home to the highest quality self-serve frozen yogurt in Australia." />
+	<meta name="description" content="Self-serve frozen yogurt and açaí, made your way. Choose your base, add your favourite fruit, toppings and sauces." />
 	<link rel="canonical" href="https://yoji.com.tr/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Yo-Ji Frozen Yogurt" />
-	<meta property="og:description" content="Chi Is at the heart of everything we do" />
+	<meta property="og:description" content="Frozen yogurt, açaí and all the toppings you love." />
 	<meta property="og:url" content="https://yoji.com.tr/" />
 	<meta property="og:site_name" content="Yo-Ji Frozen Yogurt" />
-	<meta property="article:publisher" content="https://www.facebook.com/iloveyochi" />
+	<meta property="article:publisher" content="https://www.facebook.com/yojifrozen" />
 	<meta property="article:modified_time" content="2026-09-18T07:46:51+00:00" />
 	<meta property="og:image" content="https://yoji.com.tr/wp-content/uploads/2022/07/Toppings-Banner.png" />
 	<meta property="og:image:width" content="1440" />
 	<meta property="og:image:height" content="691" />
 	<meta property="og:image:type" content="image/png" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Yo-Chi Frozen Yogurt" />
-	<meta name="twitter:description" content="Chi Is at the heart of everything we do" />
+	<meta name="twitter:title" content="Yo-Ji Frozen Yogurt" />
+	<meta name="twitter:description" content="Frozen yogurt, açaí and all the toppings you love." />
 	<meta name="twitter:image" content="https://yoji.com.tr/wp-content/uploads/2022/07/Toppings-Banner.png" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/yoji.com.tr\/","url":"https:\/\/yoji.com.tr\/","name":"Yo-Chi Self-Serve Frozen Yogurt and Açaí - Share the Chi","isPartOf":{"@id":"https:\/\/yoji.com.tr\/#website"},"about":{"@id":"https:\/\/yoji.com.tr\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/yoji.com.tr\/#primaryimage"},"image":{"@id":"https:\/\/yoji.com.tr\/#primaryimage"},"thumbnailUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","datePublished":"2022-04-06T16:30:39+00:00","dateModified":"2026-09-18T07:46:51+00:00","description":"Premium self-serve frozen yogurt and açaí to make you happy. Yo-Chi is proudly home to the highest quality self-serve frozen yogurt in Australia.","breadcrumb":{"@id":"https:\/\/yoji.com.tr\/#breadcrumb"},"inLanguage":"en-AU","potentialAction":[{"@type":"ReadAction","target":["https:\/\/yoji.com.tr\/"]}]},{"@type":"ImageObject","inLanguage":"en-AU","@id":"https:\/\/yoji.com.tr\/#primaryimage","url":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","contentUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","width":1440,"height":691},{"@type":"BreadcrumbList","@id":"https:\/\/yoji.com.tr\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/yoji.com.tr\/#website","url":"https:\/\/yoji.com.tr\/","name":"Yo-Chi Frozen Yogurt","description":"Chi Is at the heart of everything we do","publisher":{"@id":"https:\/\/yoji.com.tr\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/yoji.com.tr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-AU"},{"@type":"Organization","@id":"https:\/\/yoji.com.tr\/#organization","name":"Yo-Chi","url":"https:\/\/yoji.com.tr\/","logo":{"@type":"ImageObject","inLanguage":"en-AU","@id":"https:\/\/yoji.com.tr\/#\/schema\/logo\/image\/","url":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/logo.svg","contentUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/logo.svg","width":820,"height":327,"caption":"Yo-Chi"},"image":{"@id":"https:\/\/yoji.com.tr\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/iloveyochi","http:\/\/instagram.com\/iloveyochi"]}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/yoji.com.tr\/","url":"https:\/\/yoji.com.tr\/","name":"Yo-Ji · Frozen Yogurt & Açaí","isPartOf":{"@id":"https:\/\/yoji.com.tr\/#website"},"about":{"@id":"https:\/\/yoji.com.tr\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/yoji.com.tr\/#primaryimage"},"image":{"@id":"https:\/\/yoji.com.tr\/#primaryimage"},"thumbnailUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","datePublished":"2022-04-06T16:30:39+00:00","dateModified":"2026-09-18T07:46:51+00:00","description":"Self-serve frozen yogurt and açaí, made your way. Choose your base, add your favourite fruit, toppings and sauces.","breadcrumb":{"@id":"https:\/\/yoji.com.tr\/#breadcrumb"},"inLanguage":"tr-TR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/yoji.com.tr\/"]}]},{"@type":"ImageObject","inLanguage":"tr-TR","@id":"https:\/\/yoji.com.tr\/#primaryimage","url":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","contentUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","width":1440,"height":691},{"@type":"BreadcrumbList","@id":"https:\/\/yoji.com.tr\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/yoji.com.tr\/#website","url":"https:\/\/yoji.com.tr\/","name":"Yo-Ji Frozen Yogurt","description":"Frozen yogurt, açaí and all the toppings you love.","publisher":{"@id":"https:\/\/yoji.com.tr\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/yoji.com.tr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"tr-TR"},{"@type":"Organization","@id":"https:\/\/yoji.com.tr\/#organization","name":"Yo-Ji","url":"https:\/\/yoji.com.tr\/","logo":{"@type":"ImageObject","inLanguage":"tr-TR","@id":"https:\/\/yoji.com.tr\/#\/schema\/logo\/image\/","url":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/logo.svg","contentUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/logo.svg","width":820,"height":327,"caption":"Yo-Ji"},"image":{"@id":"https:\/\/yoji.com.tr\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/yojifrozen","http:\/\/instagram.com\/yojifrozen"]}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 

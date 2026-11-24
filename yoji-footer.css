@@ -12,7 +12,7 @@ footer.yj-footer{--card:clamp(340px,23.3vw,470px);--ink:#36332e;--cream:#fdf4ec;
 .yj-footer__blob.b4{left:24%;bottom:8%;width:3.2%;height:7%;background:#8db8e8;border-radius:50% 40% 55% 45%}
 .yj-footer__blob.b5{right:-4%;top:-9%;width:calc(var(--card) + 14vw);height:20%;background:#fecdc8;border-radius:50% 50% 45% 55%/60% 60% 40% 40%}
 /* illüstrasyon */
-.yj-footer__art{position:absolute;z-index:1;left:32%;right:calc(var(--card) + 2vw);top:0;bottom:0;background:url(./img/yoji-footer-art.webp) center bottom/cover no-repeat;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 16%);mask-image:linear-gradient(to right,transparent 0,#000 16%)}
+.yj-footer__art{position:absolute;z-index:1;left:32%;right:calc(var(--card) + 2vw);top:0;bottom:0;background:url(/wp-content/uploads/revize/footer-bg.jpg) center bottom/cover no-repeat;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 16%);mask-image:linear-gradient(to right,transparent 0,#000 16%)}
 /* sol metin */
 .yj-footer__intro{position:relative;z-index:2;max-width:31vw;padding:clamp(40px,6.2vw,125px) 0 40px clamp(24px,5.2vw,104px)}
 .yj-footer__logo{display:block;height:clamp(44px,3.6vw,72px);width:auto;margin-bottom:clamp(28px,3vw,60px)}

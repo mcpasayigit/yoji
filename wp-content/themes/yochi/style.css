@@ -9359,3 +9359,18 @@ body.glightbox-open {
 .yj-fruit-img{width:100%;aspect-ratio:1/1;background-size:contain;background-position:center;background-repeat:no-repeat}
 .yj-fruit-card h5{font-family:'Manrope',sans-serif;font-weight:700;font-size:19px;color:#36332e;margin:10px 0 0;text-transform:capitalize}
 @media(max-width:860px){.yj-fruits-grid{grid-template-columns:repeat(2,1fr);max-width:420px;gap:10px}}
+
+/* Revize 1110 · Contact formu arka plan desenini kaldır */
+.contact-form-box{background:none !important;height:auto !important;width:auto !important;max-width:760px;margin:0 auto;padding:8px 0}
+/* Revize 1110 · Our Story ufak mesaj zarf arka planı (saydam) */
+.yj-story-note{position:relative}
+.yj-story-note::before{content:"";position:absolute;inset:0;background:url(/wp-content/uploads/revize/story-envelope.png) center/contain no-repeat;opacity:.13;z-index:0;pointer-events:none}
+.yj-story-note .wrapper{position:relative;z-index:1}
+/* Revize 1110 · Location arka plan renk kümelerini kaldır (yollar banner'da) */
+.venues-section{background:#fff7ef !important}
+
+/* Revize 1110 · Location Stores/Pop-Ups başlıkları */
+.yj-venue-head{display:block !important;text-align:center;margin:30px 0 10px}
+.yj-venue-head .underlined{display:inline-block}
+.yj-venue-head--pop{margin-top:60px}
+.yj-venue-sub{text-align:center;font-family:'Manrope',sans-serif;color:#36332e;margin:0 0 20px}
