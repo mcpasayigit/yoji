@@ -9704,3 +9704,31 @@ div.sub-intro { background: none !important; }
 .contact-section .link-box-chi-club .row .name-links .underlined:after {
   background: #81B2E0 !important;
 }
+
+/* --- Banner üstünde logo ve menü simgesi okunsun ---
+   Bannerdaki beyaz perdeyi tamamen kaldırmıştık; koyu renkli logo ve menü
+   simgesi aydınlık/karışık görsellerde kayboluyordu. Sadece üst şeride,
+   aşağı doğru eriyen yumuşak bir krem geçiş koyuyoruz: banner'ın gövdesi
+   net kalıyor, header okunur hale geliyor. */
+.page-header,
+.yj-hero { position: relative; }
+.page-header:before,
+.yj-hero:before {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  height: clamp(120px, 17vw, 240px);
+  background: linear-gradient(to bottom,
+      rgba(253, 244, 236, .9) 0%,
+      rgba(253, 244, 236, .58) 42%,
+      rgba(253, 244, 236, 0) 100%);
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* --- İletişim: kutu altındaki butonlar ortalansın --- */
+.contact-section .row-list { text-align: center; }
+.contact-section .row-list .read-more {
+  display: inline-block;
+  margin: 0 auto;
+}
