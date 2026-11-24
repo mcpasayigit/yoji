@@ -80,6 +80,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	<link data-minify="1" href="https://yoji.com.tr/wp-content/themes/yochi/style.css?ver=1790480713" rel="stylesheet" />
 	<link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/swiper-bundle.min.css?ver=1790480713" />
 	<link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/aos.css?ver=1790480713" />
+	<link rel="stylesheet" href="/yoji-footer.css?v=1110" />
 	<script src='https://yoji.com.tr/wp-content/themes/yochi/js/jquery.min.js'></script>
 	
 	
