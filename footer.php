@@ -81,10 +81,7 @@ var sbiTranslations = {"share":"Share"};
 
 
 <script type="text/javascript" src=https://amplify.review-alerts.com/widget-init.js></script>
-<!-- Revize: birleşik WP Rocket paketi yerine kaynak scriptler -->
-<script src="https://yoji.com.tr/wp-content/themes/yochi/js/swiper-bundle.min.js"></script>
-<script src="https://yoji.com.tr/wp-content/themes/yochi/js/aos.js"></script>
-<script src="https://yoji.com.tr/wp-content/themes/yochi/js/gsap.min.js"></script>
-<script src="https://yoji.com.tr/wp-content/themes/yochi/js/main.js"></script></body>
+<!-- Tema JS paketi (Swiper, AOS + init, main.js). Kaynak tema klasöründe, cache bağımsız. -->
+<script src="https://yoji.com.tr/wp-content/themes/yochi/js/yochi-bundle.js" defer></script></body>
 
 </html>
