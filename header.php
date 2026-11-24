@@ -96,10 +96,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 <meta name="generator" content="WordPress 7.1.2" />
 <link rel='shortlink' href='https://yoji.com.tr/' />
-<link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-150x150.png?v=1124" sizes="32x32" />
-<link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png?v=1124" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png?v=1124" />
-<link rel="shortcut icon" href="/favicon.ico?v=1124" />
+<link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-150x150.png?v=1124b" sizes="32x32" />
+<link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png?v=1124b" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png?v=1124b" />
+<link rel="shortcut icon" href="/favicon.ico?v=1124b" />
 <meta name="msapplication-TileImage" content="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png" />
 	<link data-minify="1" href="https://yoji.com.tr/wp-content/themes/yochi/style.css?ver=1790480713" rel="stylesheet" />
 	<link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/swiper-bundle.min.css?ver=1790480713" />
