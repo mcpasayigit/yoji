@@ -160,8 +160,7 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 															</div>
 						</div>
 						<div class="row no-pointer">
-							<div class="yj-fav-product">
-					<img src="/wp-content/uploads/revize/happier-days.png" alt="<?= yj_h($yj_t(['tr' => 'İyi Dondurulmuş Yoğurt, Mutlu Günler', 'en' => 'Good Frozen Yogurt, Happier Days'])) ?>" class="yj-happier-days">
+							<div class="yj-fav-product"> 'İyi Dondurulmuş Yoğurt, Mutlu Günler', 'en' => 'Good Frozen Yogurt, Happier Days'])) ?>" class="yj-happier-days">
 					<img src="/wp-content/uploads/revize/fav-cup.png" alt="Yo-Ji" class="info-home-image">
 				</div>
 						</div>

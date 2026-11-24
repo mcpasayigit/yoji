@@ -43,7 +43,7 @@ $yj_switch_label = $yj_lang === 'en' ? 'TR' : 'EN';
 
 	<meta name="description" content="<?= yj_h($yj_t(['tr' => 'Kendi tarzında, self-servis dondurulmuş yoğurt ve açaí. Kaseni seç; en sevdiğin meyve, topping ve soslarla tamamla.', 'en' => 'Self-serve frozen yogurt and açaí, made your way. Choose your base, add your favourite fruit, toppings and sauces.'])) ?>" />
 	<link rel="canonical" href="https://yoji.com.tr/" />
-	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale" content="tr_TR" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Yo-Ji Frozen Yogurt" />
 	<meta property="og:description" content="Frozen yogurt, açaí and all the toppings you love." />
@@ -51,14 +51,14 @@ $yj_switch_label = $yj_lang === 'en' ? 'TR' : 'EN';
 	<meta property="og:site_name" content="Yo-Ji Frozen Yogurt" />
 	<meta property="article:publisher" content="https://www.facebook.com/yojifrozen" />
 	<meta property="article:modified_time" content="2026-09-18T07:46:51+00:00" />
-	<meta property="og:image" content="https://yoji.com.tr/wp-content/uploads/2022/07/Toppings-Banner.png" />
-	<meta property="og:image:width" content="1440" />
-	<meta property="og:image:height" content="691" />
-	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image" content="https://yoji.com.tr/wp-content/uploads/revize/yoji-share.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:type" content="image/jpeg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Yo-Ji Frozen Yogurt" />
 	<meta name="twitter:description" content="Frozen yogurt, açaí and all the toppings you love." />
-	<meta name="twitter:image" content="https://yoji.com.tr/wp-content/uploads/2022/07/Toppings-Banner.png" />
+	<meta name="twitter:image" content="https://yoji.com.tr/wp-content/uploads/revize/yoji-share.jpg" />
 	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/yoji.com.tr\/","url":"https:\/\/yoji.com.tr\/","name":"Yo-Ji · Frozen Yogurt & Açaí","isPartOf":{"@id":"https:\/\/yoji.com.tr\/#website"},"about":{"@id":"https:\/\/yoji.com.tr\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/yoji.com.tr\/#primaryimage"},"image":{"@id":"https:\/\/yoji.com.tr\/#primaryimage"},"thumbnailUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","datePublished":"2022-04-06T16:30:39+00:00","dateModified":"2026-09-18T07:46:51+00:00","description":"Self-serve frozen yogurt and açaí, made your way. Choose your base, add your favourite fruit, toppings and sauces.","breadcrumb":{"@id":"https:\/\/yoji.com.tr\/#breadcrumb"},"inLanguage":"tr-TR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/yoji.com.tr\/"]}]},{"@type":"ImageObject","inLanguage":"tr-TR","@id":"https:\/\/yoji.com.tr\/#primaryimage","url":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","contentUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/Toppings-Banner.png","width":1440,"height":691},{"@type":"BreadcrumbList","@id":"https:\/\/yoji.com.tr\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/yoji.com.tr\/#website","url":"https:\/\/yoji.com.tr\/","name":"Yo-Ji Frozen Yogurt","description":"Frozen yogurt, açaí and all the toppings you love.","publisher":{"@id":"https:\/\/yoji.com.tr\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/yoji.com.tr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"tr-TR"},{"@type":"Organization","@id":"https:\/\/yoji.com.tr\/#organization","name":"Yo-Ji","url":"https:\/\/yoji.com.tr\/","logo":{"@type":"ImageObject","inLanguage":"tr-TR","@id":"https:\/\/yoji.com.tr\/#\/schema\/logo\/image\/","url":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/logo.svg","contentUrl":"https:\/\/yoji.com.tr\/wp-content\/uploads\/2022\/07\/logo.svg","width":820,"height":327,"caption":"Yo-Ji"},"image":{"@id":"https:\/\/yoji.com.tr\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/yojifrozen","http:\/\/instagram.com\/yojifrozen"]}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
@@ -96,9 +96,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 <meta name="generator" content="WordPress 7.1.2" />
 <link rel='shortlink' href='https://yoji.com.tr/' />
-<link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-150x150.png" sizes="32x32" />
-<link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png" />
+<link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-150x150.png?v=1124" sizes="32x32" />
+<link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png?v=1124" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png?v=1124" />
+<link rel="shortcut icon" href="/favicon.ico?v=1124" />
 <meta name="msapplication-TileImage" content="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-300x300.png" />
 	<link data-minify="1" href="https://yoji.com.tr/wp-content/themes/yochi/style.css?ver=1790480713" rel="stylesheet" />
 	<link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/swiper-bundle.min.css?ver=1790480713" />

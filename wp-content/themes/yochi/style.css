@@ -9393,7 +9393,7 @@ body.glightbox-open {
   padding: 64px 0 0;
 }
 .yj-page-head .page-title {
-  font-size: 72px;
+  font-size: clamp(34px, 4.6vw, 58px);
   line-height: 1.05;
   margin: 0;
   color: #36332e;
@@ -9405,15 +9405,25 @@ body.glightbox-open {
   margin: 18px 0 0;
   font-weight: 400;
 }
-/* banner altı başlıklarda altı çizili efekti animasyon beklemeden görünsün */
+/* banner altı başlıklarda altı çizili efekt: temanın kendi çizgisi kullanılsın
+   (kendi gradyanımız temanınkiyle üst üste binip blok gibi görünüyordu) */
 .yj-page-head .underlined {
-  display: inline;
-  background-image: linear-gradient(#81B2E0, #81B2E0);
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-size: 100% 12%;
-  padding: 0 4px;
-  margin: 0 -4px;
+  display: inline-block;
+  background-image: none !important;
+  position: relative;
+  padding-bottom: .12em;
+}
+.yj-page-head .underlined:after {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  left: 0 !important; right: 0 !important;
+  bottom: 0 !important; top: auto !important;
+  width: auto !important; height: .11em !important;
+  background: #81B2E0 !important;
+  opacity: 1 !important;
+  transform: none !important;
+  border-radius: 6px;
 }
 @media (max-width: 991px) {
   .yj-page-head { padding-top: 40px; }
@@ -9550,3 +9560,147 @@ div.sub-intro { background: none !important; }
 .heart-section .wrapper:before { width: 128% !important; height: 128% !important; margin-left: -14% !important; top: -7%; }
 .heart-section .heart-box { width: 66%; }
 @media (max-width: 760px) { .heart-section .heart-box { width: 84%; } }
+
+/* ===================== REVİZE 1124 · v2 ===================== */
+
+/* --- Favorilerimiz: başlığın iki yanında aşağı ok --- */
+.wthats-title {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(14px, 3vw, 54px);
+  line-height: 1.1 !important;
+}
+.wthats-title:before,
+.wthats-title:after {
+  content: '';
+  flex: none;
+  position: static !important;
+  margin: 0 !important;
+  width: clamp(38px, 4vw, 62px);
+  height: clamp(66px, 7vw, 108px);
+  background: url(/wp-content/uploads/revize/swoosh-down.png) center/contain no-repeat !important;
+  animation: float 2s linear infinite;
+}
+.wthats-title:before { transform: scaleX(-1); }
+@media (max-width: 575px) { .wthats-title { gap: 10px; } }
+
+/* --- Meyveler: sonsuz sürüklenebilir şerit (eski ızgara yerine) --- */
+.yj-fruits-slider { overflow: hidden; padding: 0 clamp(16px, 4vw, 60px); }
+.yj-fruits-slider .swiper-wrapper { align-items: flex-start; }
+.yj-fruits-slider .swiper-slide {
+  width: clamp(150px, 15vw, 210px);
+  height: auto;
+  flex: none;
+  cursor: grab;
+}
+.yj-fruits-slider .swiper-slide:active { cursor: grabbing; }
+.yj-fruits-slider .yj-fruit-img { width: 100%; }
+
+/* --- Son bölümle footer arasına nefes payı --- */
+.yj-footer { margin-top: clamp(48px, 6vw, 120px); }
+
+/* --- HİKAYEMİZ: kalp küçülsün + saydamlaşsın, yazı daralsın --- */
+.heart-section .wrapper:before {
+  width: 112% !important;
+  height: 112% !important;
+  margin-left: -6% !important;
+  top: -3%;
+  opacity: .5;
+}
+.heart-section .heart-box { width: 58%; padding: 110px 0; }
+.heart-section .heart-box p { font-size: clamp(15px, 1.1vw, 18px); line-height: 1.62; }
+.heart-section .heart-box h4 { font-size: clamp(24px, 2.4vw, 40px); line-height: 1.15; }
+@media (max-width: 980px) { .heart-section .heart-box { width: 80%; padding: 70px 0; } }
+
+/* --- HİKAYEMİZ: zarf büyüsün, kalpten uzaklaşsın, yazı ortada dursun --- */
+.yj-story-note {
+  margin-top: clamp(56px, 8vw, 140px);
+  display: flex;
+  align-items: center;
+  min-height: clamp(420px, 44vw, 700px);
+  padding: clamp(50px, 6vw, 110px) 0;
+}
+.yj-story-note::before { inset: -6% -3% !important; opacity: .2 !important; }
+.yj-story-note .wrapper { width: 100%; }
+.yj-story-note .sub-intro p {
+  max-width: 46ch;
+  margin: 0 auto;
+  text-align: center;
+  font-size: clamp(16px, 1.2vw, 20px);
+  line-height: 1.7;
+}
+
+/* --- İLETİŞİM: kutular daha az dikdörtgen + butonlar hizalı --- */
+.contact-section .link-box-chi-club { align-items: stretch; }
+.contact-section .row-list { display: flex; flex-direction: column; height: 100%; }
+.contact-section .row-list > a:first-child { display: block; }
+.contact-section .row-list p { flex: 1 0 auto; margin: 18px 0; }
+.contact-section .link-box-chi-club .row {
+  height: clamp(240px, 25vw, 360px) !important;
+  -webkit-mask-size: 100% 100% !important;
+  mask-size: 100% 100% !important;
+}
+@media (max-width: 760px) {
+  .contact-section .link-box-chi-club .row { height: clamp(200px, 48vw, 280px) !important; }
+}
+
+/* --- LOCATIONS: elipsimsi blob yerine beyaz polaroid çerçeve --- */
+.venues-section .image-location {
+  /* yüzdeli padding üst kabın genişliğine göre hesaplandığı için
+     çerçeve penceresi kayıyordu; elemanın kendi genişliğine bağladık */
+  --fw: min(420px, 80vw);
+  width: var(--fw) !important;
+  height: auto !important;
+  aspect-ratio: 1450 / 1600;
+  padding: calc(var(--fw) * .2538) calc(var(--fw) * .094) calc(var(--fw) * .0905) calc(var(--fw) * .11);
+  box-sizing: border-box;
+  border-radius: 0 !important;
+  animation: none !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  overflow: visible !important;
+  position: relative;
+  background-origin: content-box !important;
+  background-clip: content-box !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.venues-section .image-location:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: url(/wp-content/uploads/revize/location-frame.png) center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+/* çalışma saatleri katmanı çerçevenin penceresinde kalsın */
+.venues-section .image-location .opening-hours {
+  z-index: 2;
+  border-radius: 0 !important;
+  top: 23% !important; left: 11% !important;
+  right: 9.4% !important; bottom: 8.2% !important;
+  width: auto !important; height: auto !important;
+}
+
+/* zarf bölümünün altındaki fazla boşluk toparlandı */
+.yj-story-note { padding-bottom: clamp(20px, 2vw, 40px); }
+
+/* --- İLETİŞİM: kutu başlıkları fotoğrafın üstünde okunsun --- */
+.contact-section .link-box-chi-club .row .name-links {
+  display: inline-block;
+  width: auto !important;
+  max-width: 86%;
+  background: rgba(24, 40, 68, .55);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  padding: 10px 26px 14px;
+  border-radius: 999px;
+  color: #fff;
+}
+.contact-section .link-box-chi-club .row .name-links .underlined { color: #fff; }
+.contact-section .link-box-chi-club .row .name-links .underlined:after {
+  background: #81B2E0 !important;
+}

@@ -11,7 +11,7 @@ include 'header.php';
         <div class="wrapper">
             <h3 class="venues-title yj-venue-head"><span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Mağazalar', 'en' => 'Stores'])) ?></b></span></h3>
                 <div class="location-row" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                    <div class="image-location" style="background: url(https://yoji.com.tr/img/locations-01.jpg);">
+                    <div class="image-location" style="background: url(/wp-content/uploads/revize/store-alacati.jpg);">
                         <span class="opening-hours"><span>
                             <p><strong><?= yj_h($yj_t(['tr' => 'ÇALIŞMA SAATLERİ', 'en' => 'TRADING HOURS'])) ?></strong></p><p><?= $yj_t(['tr' => 'PZT', 'en' => 'MON']) ?>: 10:00 – 22:00</p><p><?= $yj_t(['tr' => 'SAL', 'en' => 'TUE']) ?>: 10:00 – 22:00</p><p><?= $yj_t(['tr' => 'ÇAR', 'en' => 'WED']) ?>: 10:00 – 22:00</p><p><?= $yj_t(['tr' => 'PER', 'en' => 'THU']) ?>: 10:00 – 22:00</p><p><?= $yj_t(['tr' => 'CUM', 'en' => 'FRI']) ?>: 10:00 – 23:00</p><p><?= $yj_t(['tr' => 'CMT', 'en' => 'SAT']) ?>: 10:00 – 23:00</p><p><?= $yj_t(['tr' => 'PAZ', 'en' => 'SUN']) ?>: 10:00 – 22:00</p>                        </span></span>
                     </div>

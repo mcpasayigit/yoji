@@ -40,7 +40,7 @@ $yj_t = function ($v) use ($yj_lang) {
  *    labels: tema CSS'indeki ikon sınıfı (string) ya da ['img' => 'yol'] (görsel ikon)
  * ------------------------------------------------------------------------- */
 $yj_og = [
-    ['name' => ['tr' => 'İmza Ekşi',      'en' => 'Signature Tart'],   'img' => 'urunler/yoji_f_signature.png',  'labels' => ['sig-tart-gf', 'sig-tart-the-og'], 'desc' => ['tr' => 'Taze, pürüzsüz ve tam kıvamında dengeli.', 'en' => 'Fresh, smooth and perfectly balanced.']],
+    ['name' => ['tr' => 'Signature Tart',      'en' => 'Signature Tart'],   'img' => 'urunler/yoji_f_signature.png',  'labels' => ['sig-tart-gf', 'sig-tart-the-og'], 'desc' => ['tr' => 'Taze, pürüzsüz ve tam kıvamında dengeli.', 'en' => 'Fresh, smooth and perfectly balanced.']],
     ['name' => ['tr' => 'Klasik Vanilya', 'en' => 'Classic Vanilla'],  'img' => 'urunler/yoji_f_vanilla.png',    'labels' => ['vanilla-gf'],                      'desc' => ['tr' => 'Hafif, pürüzsüz ve zamansız.', 'en' => 'Light, smooth and timeless.']],
     ['name' => ['tr' => 'Çikolata',       'en' => 'Choccy'],           'img' => 'urunler/yoji_f_choccy.png',     'labels' => ['chocolate-gf-vf'],                 'desc' => ['tr' => 'Yoğun çikolata aroması; iddialı ve doyurucu.', 'en' => 'Rich chocolate flavour, bold and indulgent.']],
     ['name' => ['tr' => 'Çilekli Krema',  'en' => 'Strawberry Cream'], 'img' => 'urunler/yoji_f_strawberry.png', 'labels' => ['strawberry-cream-gf'],             'desc' => ['tr' => 'Gerçek çileklerle hazırlanan kremamsı çilek aroması.', 'en' => 'Creamy strawberry flavour made with real strawberries.']],
@@ -648,19 +648,41 @@ $yj_info = [
     <div class="wrapper">
         <h4 class="title-text yj-fruits-title"><span class="underlined"><b><?= yj_h($yj_t(['tr' => 'MEYVELER', 'en' => 'FRUITS'])) ?></b></span></h4>
         <p class="yj-fruits-lead"><?= yj_h($yj_t(['tr' => 'Taze meyvelerle kaseni tazele.', 'en' => 'Top your bowl with fresh, juicy fruit.'])) ?></p>
-        <div class="yj-fruits-grid">
-            <?php foreach ($yj_fruits as $fr): ?>
-                <div class="yj-fruit-card">
-                    <div class="yj-fruit-img" role="img" aria-label="<?= yj_h($yj_t($fr['name'])) ?>" style="background-image:url('<?= yj_h($yj_up . $fr['img']) ?>')"></div>
-                    <h5><?= yj_h($yj_t($fr['name'])) ?></h5>
-                </div>
-            <?php endforeach; ?>
+        <div class="swiper yj-fruits-slider">
+            <div class="swiper-wrapper">
+                <?php foreach ($yj_fruits as $fr): ?>
+                    <div class="swiper-slide yj-fruit-card">
+                        <div class="yj-fruit-img" role="img" aria-label="<?= yj_h($yj_t($fr['name'])) ?>" style="background-image:url('<?= yj_h($yj_up . $fr['img']) ?>')"></div>
+                        <h5><?= yj_h($yj_t($fr['name'])) ?></h5>
+                    </div>
+                <?php endforeach; ?>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- ============ SAUCES ============ -->
 <?php $yj_sauce_strip($yj_sauces); ?>
+
+<script>
+/* Meyveler: sürüklenebilir, sonsuz dönen şerit */
+document.addEventListener('DOMContentLoaded', function () {
+  var el = document.querySelector('.yj-fruits-slider');
+  if (!el || typeof Swiper !== 'function') return;
+  new Swiper(el, {
+    loop: true,
+    loopAdditionalSlides: 5,
+    slidesPerView: 'auto',
+    spaceBetween: 18,
+    grabCursor: true,
+    centeredSlides: false,
+    watchOverflow: false,
+    freeMode: { enabled: true, momentum: true, momentumRatio: 0.6, sticky: false },
+    a11y: { enabled: false },
+    breakpoints: { 0: { spaceBetween: 10 }, 860: { spaceBetween: 18 } }
+  });
+});
+</script>
 
 <!-- ============ VEKTÖREL YUVARLAKLAR (en altta) ============ -->
 <section class="product-info-section">
