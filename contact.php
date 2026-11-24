@@ -7,7 +7,7 @@ include 'header.php';
    <div  class="wrapper">
       <h2 class="page-title aos-no-animate" data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
          <span class="underlined" data-aos="line-text">
-            <b>Contact us</b>
+            <b><?= yj_h($yj_t(['tr' => 'İletişim', 'en' => 'Contact us'])) ?></b>
          </span>
       </h2>
    </div>
@@ -21,21 +21,21 @@ include 'header.php';
          <div class="row-list no-animate" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600" data-aos-once="true">
             <a href="mailto:career@yoji.com.tr">
                <div class="row" style="background: url(/wp-content/uploads/revize/career.jpg);">
-                  <span class="name-links"><span class="underlined" data-aos="line-text"><b>Careers</b></span></span>
+                  <span class="name-links"><span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Kariyer', 'en' => 'Careers'])) ?></b></span></span>
                </div>
             </a>
-            <p style="text-align: center;">Want to work with us? </p>
-            <a href="mailto:career@yoji.com.tr" class="read-more">APPLY NOW</a>
+            <p style="text-align: center;"><?= yj_h($yj_t(['tr' => 'Bizimle çalışmak ister misin?', 'en' => 'Want to work with us?'])) ?></p>
+            <a href="mailto:career@yoji.com.tr" class="read-more"><?= yj_h($yj_t(['tr' => 'BAŞVUR', 'en' => 'APPLY NOW'])) ?></a>
          </div>
 
          <div class="row-list no-animate" data-aos="fade-up" data-aos-delay="800" data-aos-duration="600" data-aos-once="true">
             <a href="mailto:franchise@yoji.com.tr">
                <div class="row" style="background: url(/wp-content/uploads/revize/franchise.jpg);">
-                  <span class="name-links"><span class="underlined" data-aos="line-text"><b>Franchising </b></span></span>
+                  <span class="name-links"><span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Bayilik', 'en' => 'Franchising'])) ?></b></span></span>
                </div>
             </a>
-            <p style="text-align: center;">Our venues aren’t franchised but if you’re interested, shoot us a message!</p>
-            <a href="mailto:frenchise@yoji.com.tr" class="read-more">ENQUIRE NOW</a>
+            <p style="text-align: center;"><?= yj_h($yj_t(["tr" => "Şubelerimiz bayilik usulü işletilmiyor ama ilgileniyorsan bize bir mesaj at!", "en" => "Our venues aren’t franchised but if you’re interested, shoot us a message!"])) ?></p>
+            <a href="mailto:franchise@yoji.com.tr" class="read-more"><?= yj_h($yj_t(['tr' => 'BİLGİ AL', 'en' => 'ENQUIRE NOW'])) ?></a>
          </div>
 
       </div>
@@ -50,21 +50,21 @@ include 'header.php';
 <!-- WhatsApp formu: data-whatsapp = ülke kodu ile başlayan numara, + ve boşluk olmadan (örn. 905551112233) -->
 <div class="wpcf7">
 <form class="wpcf7-form" id="yj-wa-form" data-whatsapp="90XXXXXXXXXX" aria-label="Contact form" novalidate>
-<p><b>Hi there!</b><br />
-My name is <span class="wpcf7-form-control-wrap"><input size="40" maxlength="80" class="wpcf7-form-control wpcf7-text your-name" aria-required="true" placeholder="Your name" value="" type="text" name="name" autocomplete="name" /></span><br />
-and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><select class="wpcf7-form-control wpcf7-select limit contact-subject" aria-required="true" name="subject">
-<option value="Soru / Geri bildirim">Question or Feedback</option>
-<option value="Şube ve çalışma saatleri">Locations &amp; opening hours</option>
-<option value="İş birliği">Collaboration</option>
-<option value="Diğer">Something else</option>
+<p><b><?= yj_h($yj_t(['tr' => 'Merhaba!', 'en' => 'Hi there!'])) ?></b><br />
+<?= yj_h($yj_t(['tr' => 'Adım', 'en' => 'My name is'])) ?> <span class="wpcf7-form-control-wrap"><input size="40" maxlength="80" class="wpcf7-form-control wpcf7-text your-name" aria-required="true" placeholder="<?= yj_h($yj_t(['tr' => 'Adın', 'en' => 'Your name'])) ?>" value="" type="text" name="name" autocomplete="name" /></span><br />
+<?= yj_h($yj_t(['tr' => 've yo-ekibiyle şunun hakkında konuşmak istiyorum:', 'en' => 'and I want to chat to the yo-team about'])) ?> <span class="wpcf7-form-control-wrap"><select class="wpcf7-form-control wpcf7-select limit contact-subject" aria-required="true" name="subject">
+<option value="Soru / Geri bildirim"><?= yj_h($yj_t(['tr' => 'Soru / Geri bildirim', 'en' => 'Question or Feedback'])) ?></option>
+<option value="Şube ve çalışma saatleri"><?= yj_h($yj_t(['tr' => 'Şube ve çalışma saatleri', 'en' => 'Locations &amp; opening hours'])) ?></option>
+<option value="İş birliği"><?= yj_h($yj_t(['tr' => 'İş birliği', 'en' => 'Collaboration'])) ?></option>
+<option value="Diğer"><?= yj_h($yj_t(['tr' => 'Diğer', 'en' => 'Something else'])) ?></option>
 </select></span>
 </p>
-<p><span class="wpcf7-form-control-wrap"><textarea cols="40" rows="10" maxlength="1000" class="wpcf7-form-control wpcf7-textarea your-message" aria-required="true" placeholder="My message is..." name="message"></textarea></span>
-<span class="send-btn"><input class="wpcf7-form-control wpcf7-submit" type="submit" value="Send" /></span>
+<p><span class="wpcf7-form-control-wrap"><textarea cols="40" rows="10" maxlength="1000" class="wpcf7-form-control wpcf7-textarea your-message" aria-required="true" placeholder="<?= yj_h($yj_t(['tr' => 'Mesajım...', 'en' => 'My message is...'])) ?>" name="message"></textarea></span>
+<span class="send-btn"><input class="wpcf7-form-control wpcf7-submit" type="submit" value="<?= yj_h($yj_t(['tr' => 'Gönder', 'en' => 'Send'])) ?>" /></span>
 </p>
-<p class="form-processing">Opening WhatsApp...
+<p class="form-processing"><?= yj_h($yj_t(['tr' => 'WhatsApp açılıyor...', 'en' => 'Opening WhatsApp...'])) ?>
 </p>
-<p class="form-success" role="status" aria-live="polite">Thank you! WhatsApp is opening, just press send there.
+<p class="form-success" role="status" aria-live="polite"><?= yj_h($yj_t(['tr' => 'Teşekkürler! WhatsApp açılıyor, oradan göndere basman yeter.', 'en' => 'Thank you! WhatsApp is opening, just press send there.'])) ?>
 </p>
 </form>
 </div>
@@ -75,20 +75,20 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
 
 <section  class="faq-section" id="yochi-faq">
    <div  class="wrapper">
-      <h3 class="title-faq"><span class="underlined" data-aos="line-text"><b>FAQs</b></span></h3>
+      <h3 class="title-faq"><span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'SSS', 'en' => 'FAQs'])) ?></b></span></h3>
       <div  class="grid-box row-2-1">
                      <div class="container">
                                  
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">How does Yoji work?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Yoji nasıl çalışır?', 'en' => 'How does Yoji work?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Start with your favourite Frozen Yogurt or Açaí, then add fruit, toppings and sauces to create a bowl entirely your own.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'En sevdiğin Dondurulmuş Yoğurt ya da Açaí ile başla; sonra meyve, topping ve sos ekleyerek tamamen kendine ait bir kase yarat.', 'en' => 'Start with your favourite Frozen Yogurt or Açaí, then add fruit, toppings and sauces to create a bowl entirely your own.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -96,13 +96,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">Do you offer vegan or dairy-free options?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Vegan ya da süt içermeyen seçenekleriniz var mı?', 'en' => 'Do you offer vegan or dairy-free options?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Selected products may be vegan or dairy-free. Our range can vary, so please check the product information in store or ask our team before ordering.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Bazı ürünler vegan ya da süt içermeyen olabilir. Ürün yelpazemiz değişebildiği için sipariş öncesi mağazadaki ürün bilgilerine bakman ya da ekibimize sorman yeterli.', 'en' => 'Selected products may be vegan or dairy-free. Our range can vary, so please check the product information in store or ask our team before ordering.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -110,13 +110,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">Are your products gluten-free?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Ürünleriniz glutensiz mi?', 'en' => 'Are your products gluten-free?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Some of our ingredients may not contain gluten, but our products are prepared and served in a shared environment. If you have an allergy or intolerance, please speak to our team before making your bowl.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Bazı malzemelerimiz gluten içermeyebilir ama ürünlerimiz ortak bir alanda hazırlanıp servis ediliyor. Alerjin ya da intoleransın varsa kaseni hazırlamadan önce lütfen ekibimizle konuş.', 'en' => 'Some of our ingredients may not contain gluten, but our products are prepared and served in a shared environment. If you have an allergy or intolerance, please speak to our team before making your bowl.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -124,13 +124,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">Where can I find allergen information?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Alerjen bilgisini nerede bulabilirim?', 'en' => 'Where can I find allergen information?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Allergen information is available in store. Our team can help you check the ingredients and allergen details of our bases, toppings and sauces.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Alerjen bilgisi mağazada mevcut. Ekibimiz; bazların, toppinglerin ve sosların içerik ve alerjen detaylarını kontrol etmene yardımcı olabilir.', 'en' => 'Allergen information is available in store. Our team can help you check the ingredients and allergen details of our bases, toppings and sauces.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -138,13 +138,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">Can I mix Frozen Yogurt and Açaí in the same bowl?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Aynı kasede Dondurulmuş Yoğurt ve Açaí’yi karıştırabilir miyim?', 'en' => 'Can I mix Frozen Yogurt and Açaí in the same bowl?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Absolutely. There are no rules at Yoji. Mix your bases, add your favourites and make it exactly the way you like it.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Kesinlikle. Yoji’de kural yok. Bazlarını karıştır, en sevdiklerini ekle ve tam istediğin gibi yap.', 'en' => 'Absolutely. There are no rules at Yoji. Mix your bases, add your favourites and make it exactly the way you like it.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -152,13 +152,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">Do your toppings and sauces change?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Toppingleriniz ve soslarınız değişiyor mu?', 'en' => 'Do your toppings and sauces change?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Yes. Some flavours and toppings may change depending on season, availability and new additions to the Yoji menu.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Evet. Bazı lezzetler ve toppingler mevsime, stok durumuna ve Yoji menüsüne eklenen yeniliklere göre değişebilir.', 'en' => 'Yes. Some flavours and toppings may change depending on season, availability and new additions to the Yoji menu.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -166,13 +166,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">Do you use fresh fruit?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Taze meyve kullanıyor musunuz?', 'en' => 'Do you use fresh fruit?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>We offer fresh fruit selections alongside our toppings and sauces. Available fruits may change seasonally and by location.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Topping ve soslarımızın yanında taze meyve seçenekleri de sunuyoruz. Mevcut meyveler mevsime ve şubeye göre değişebilir.', 'en' => 'We offer fresh fruit selections alongside our toppings and sauces. Available fruits may change seasonally and by location.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -180,13 +180,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">Where can I find the nearest Yoji?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Bana en yakın Yoji’yi nerede bulabilirim?', 'en' => 'Where can I find the nearest Yoji?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Visit our Locations page to see our current stores, addresses and opening hours.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Güncel şubelerimizi, adreslerini ve çalışma saatlerini görmek için Şubeler sayfamıza göz at.', 'en' => 'Visit our Locations page to see our current stores, addresses and opening hours.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -194,13 +194,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">Can I check the menu before visiting?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Gelmeden önce menüye bakabilir miyim?', 'en' => 'Can I check the menu before visiting?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Yes. You can explore our Frozen Yogurt, Açaí, toppings and sauces on our website. Product availability may vary by location.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Evet. Dondurulmuş Yoğurt, Açaí, topping ve soslarımızı web sitemizde inceleyebilirsin. Ürün mevcudiyeti şubeye göre değişebilir.', 'en' => 'Yes. You can explore our Frozen Yogurt, Açaí, toppings and sauces on our website. Product availability may vary by location.'])) ?></p>
                         </div>
                      </div>
                   </div>
@@ -208,13 +208,13 @@ and I want to chat to the yo-team about <span class="wpcf7-form-control-wrap"><s
                   <div class="panels">
                      <div class="relative">
                         <div class="panel-heading">
-                           <span class="panel-title">What if I have a food allergy?</span>
+                           <span class="panel-title"><?= yj_h($yj_t(['tr' => 'Gıda alerjim varsa ne yapmalıyım?', 'en' => 'What if I have a food allergy?'])) ?></span>
                         </div>
                      </div>
 
                      <div class="panel-collapse">
                         <div class="panel-body">
-                           <p>Please let our team know before ordering. Because ingredients are handled in a shared preparation and self-service environment, cross-contact between allergens may occur.</p>
+                           <p><?= yj_h($yj_t(['tr' => 'Sipariş vermeden önce lütfen ekibimize haber ver. Malzemeler ortak bir hazırlık ve self-servis alanında kullanıldığı için alerjenler arasında çapraz temas olabilir.', 'en' => 'Please let our team know before ordering. Because ingredients are handled in a shared preparation and self-service environment, cross-contact between allergens may occur.'])) ?></p>
                         </div>
                      </div>
                   </div>

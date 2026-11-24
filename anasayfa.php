@@ -20,7 +20,8 @@ include 'header.php';
 			<section  class="home-menu-slider">
 			<div  class="wrapper">
 				<h4 class="title-text">
-					<span class="underlined aos-init aos-animate" data-aos="line-text"><b>WHAT'S IN YOUR BOWL?</b></span>
+					<span class="underlined aos-init aos-animate" data-aos="line-text"><b>
+						<?= yj_h($yj_t(['tr' => 'KASENDE NE VAR?', 'en' => "WHAT'S IN YOUR BOWL?"])) ?></b></span>
 				</h4>
 			</div>
 							<div  class="swiper menu-slider">
@@ -32,9 +33,9 @@ include 'header.php';
 									<div class="text-box">
 
 										<h4 class="title-text">
-											<span class="underlined aos-init aos-animate" data-aos="line-text"><b>Frozen Yogurt</b></span>
+											<span class="underlined aos-init aos-animate" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Dondurulmuş Yoğurt', 'en' => 'Frozen Yogurt'])) ?></b></span>
 										</h4>
-										<p>Choose your base  </p>
+										<p><?= yj_h($yj_t(['tr' => 'Bazını seç', 'en' => 'Choose your base'])) ?>  </p>
 
 									</div>
 								</a>
@@ -45,9 +46,9 @@ include 'header.php';
 									<div class="text-box">
 
 										<h4 class="title-text">
-											<span class="underlined aos-init aos-animate" data-aos="line-text"><b>Açai</b></span>
+											<span class="underlined aos-init aos-animate" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Açaí', 'en' => 'Açaí'])) ?></b></span>
 										</h4>
-										<p>A fruit start </p>
+										<p><?= yj_h($yj_t(['tr' => 'Meyveyle başla', 'en' => 'A fruit start'])) ?> </p>
 
 									</div>
 								</a>
@@ -58,9 +59,9 @@ include 'header.php';
 									<div class="text-box">
 
 										<h4 class="title-text">
-											<span class="underlined aos-init aos-animate" data-aos="line-text"><b>Toppings</b></span>
+											<span class="underlined aos-init aos-animate" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Toppingler', 'en' => 'Toppings'])) ?></b></span>
 										</h4>
-										<p>Fruits, toppings and sauces </p>
+										<p><?= yj_h($yj_t(['tr' => 'Meyve, topping ve soslar', 'en' => 'Fruits, toppings and sauces'])) ?> </p>
 
 									</div>
 								</a>
@@ -71,9 +72,9 @@ include 'header.php';
 									<div class="text-box">
 
 										<h4 class="title-text">
-											<span class="underlined aos-init aos-animate" data-aos="line-text"><b>Souces</b></span>
+											<span class="underlined aos-init aos-animate" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Soslar', 'en' => 'Sauces'])) ?></b></span>
 										</h4>
-										<p>Tek Cümlelik Açıklama </p>
+										<p><?= yj_h($yj_t(['tr' => 'Son dokunuş senin tarzın', 'en' => 'Finish it your way'])) ?> </p>
 
 									</div>
 								</a>
@@ -108,7 +109,7 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 													<div class="swiper-slide" style="background: url(https://yoji.com.tr/wp-content/uploads/2024/07/YochiSemaphore-v2.jpg);">
 								<div class="content">
 									<h4 class="title-text">
-										Pick Your <span class="underlined"><b>Base</b></span>									</h4>
+										<?= $yj_t(['tr' => 'Bazını <span class="underlined"><b>Seç</b></span>', 'en' => 'Pick Your <span class="underlined"><b>Base</b></span>']) ?>									</h4>
 								</div>
 							</div>
 							</div>
@@ -123,15 +124,16 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 	
 			<section  class="wthats-section" style="background:#fff url(/wp-content/uploads/revize/favorites-bg.jpg) center/cover;">
 			<div  class="wave flip-off-white"></div>
-			<h3 class="wthats-title">OUR FAVORITES</h3>
+			<h3 class="wthats-title">
+			<?= yj_h($yj_t(['tr' => 'FAVORİLERİMİZ', 'en' => 'OUR FAVORITES'])) ?></h3>
 			<div  class="swiper whats-home-slider">
 				<div  class="swiper-wrapper">
 																		<div class="swiper-slide">
 								<div class="yogurt-preview yogurt-id-1 active-yogurt">
 									<div class="image-yogurt-info" style="background:url(https://yoji.com.tr/wp-content/uploads/2025/06/favori1.png)"></div>
 									<div class="circle-yogurt-info">
-										<h4 class="circle-yogurt-info-name">The Classic</h4>
-										<p class="circle-yogurt-info-description">Frozen Yogurt, Strawberry, Banana, Granola</p>
+										<h4 class="circle-yogurt-info-name"><?= yj_h($yj_t(['tr' => 'Klasik', 'en' => 'The Classic'])) ?></h4>
+										<p class="circle-yogurt-info-description"><?= yj_h($yj_t(['tr' => 'Dondurulmuş Yoğurt, Çilek, Muz, Granola', 'en' => 'Frozen Yogurt, Strawberry, Banana, Granola'])) ?></p>
 									</div>
 								</div>
 							</div>
@@ -140,8 +142,8 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 								<div class="yogurt-preview yogurt-id-3 ">
 									<div class="image-yogurt-info" style="background:url(https://yoji.com.tr/wp-content/uploads/2025/06/favori3.png)"></div>
 									<div class="circle-yogurt-info">
-										<h4 class="circle-yogurt-info-name">The Extra</h4>
-										<p class="circle-yogurt-info-description">Chocolate Frozen Yogurt, Banana, Chocolate Chips, Cookie Crumble, Granola, Hazelnuts</p>
+										<h4 class="circle-yogurt-info-name"><?= yj_h($yj_t(['tr' => 'Fazlası', 'en' => 'The Extra'])) ?></h4>
+										<p class="circle-yogurt-info-description"><?= yj_h($yj_t(['tr' => 'Çikolatalı Dondurulmuş Yoğurt, Muz, Damla Çikolata, Kurabiye Kırığı, Granola, Fındık', 'en' => 'Chocolate Frozen Yogurt, Banana, Chocolate Chips, Cookie Crumble, Granola, Hazelnuts'])) ?></p>
 									</div>
 								</div>
 							</div>
@@ -150,8 +152,8 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 								<div class="yogurt-preview yogurt-id-2 ">
 									<div class="image-yogurt-info" style="background:url(https://yoji.com.tr/wp-content/uploads/2025/06/favori2.png)"></div>
 									<div class="circle-yogurt-info">
-										<h4 class="circle-yogurt-info-name">The Açai</h4>
-										<p class="circle-yogurt-info-description">Açaí, Strawberry, Blueberries, Raspberries, Granola, Strawberry Sauce</p>
+										<h4 class="circle-yogurt-info-name"><?= yj_h($yj_t(['tr' => 'Açaí', 'en' => 'The Açaí'])) ?></h4>
+										<p class="circle-yogurt-info-description"><?= yj_h($yj_t(['tr' => 'Açaí, Çilek, Yaban Mersini, Ahududu, Granola, Çilek Sosu', 'en' => 'Açaí, Strawberry, Blueberries, Raspberries, Granola, Strawberry Sauce'])) ?></p>
 									</div>
 								</div>
 							</div>
@@ -168,33 +170,33 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 							<div class="grid-box row-3 indent">
 																	<div class="row no-animate" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-once="true">
 										<i class="icon-info-home" style="background: url(https://yoji.com.tr/wp-content/uploads/2022/04/anasayfa-icon-01.png);"></i>
-										<h4 class="text-info-home">Fresh Fruit</h4>
+										<h4 class="text-info-home"><?= yj_h($yj_t(['tr' => 'Taze Meyve', 'en' => 'Fresh Fruit'])) ?></h4>
 									</div>
 																	<div class="row no-animate" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-once="true">
 										<i class="icon-info-home" style="background: url(https://yoji.com.tr/wp-content/uploads/2022/04/anasayfa-icon-02.png);"></i>
-										<h4 class="text-info-home">Cruncy<br>Toppings</h4>
+										<h4 class="text-info-home"><?= $yj_t(['tr' => 'Çıtır<br>Toppingler', 'en' => 'Crunchy<br>Toppings']) ?></h4>
 									</div>
 																	<div class="row no-animate" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600" data-aos-once="true">
 										<i class="icon-info-home" style="background: url(https://yoji.com.tr/wp-content/uploads/2022/04/anasayfa-icon-03.png);"></i>
-										<h4 class="text-info-home">Delicious<br>Sauces</h4>
+										<h4 class="text-info-home"><?= $yj_t(['tr' => 'Leziz<br>Soslar', 'en' => 'Delicious<br>Sauces']) ?></h4>
 									</div>
 																	<div class="row no-animate" data-aos="fade-up" data-aos-delay="800" data-aos-duration="600" data-aos-once="true">
 										<i class="icon-info-home" style="background: url(https://yoji.com.tr/wp-content/uploads/2022/04/anasayfa-icon-04.png);"></i>
-										<h4 class="text-info-home">Make It Yours</h4>
+										<h4 class="text-info-home"><?= yj_h($yj_t(['tr' => 'Kendine Göre Yap', 'en' => 'Make It Yours'])) ?></h4>
 									</div>
 																	<div class="row no-animate" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="600" data-aos-once="true">
 										<i class="icon-info-home" style="background: url(https://yoji.com.tr/wp-content/uploads/2022/04/anasayfa-icon-05.png);"></i>
-										<h4 class="text-info-home">Different<br>Every Time</h4>
+										<h4 class="text-info-home"><?= $yj_t(['tr' => 'Her Seferinde<br>Farklı', 'en' => 'Different<br>Every Time']) ?></h4>
 									</div>
 																	<div class="row no-animate" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="600" data-aos-once="true">
 										<i class="icon-info-home" style="background: url(https://yoji.com.tr/wp-content/uploads/2022/04/anasayfa-icon-06.png);"></i>
-										<h4 class="text-info-home">Yoji.<br>Taste of Life.</h4>
+										<h4 class="text-info-home"><?= $yj_t(['tr' => 'Yoji.<br>Hayatın Tadı.', 'en' => 'Yoji.<br>Taste of Life.']) ?></h4>
 									</div>
 															</div>
 						</div>
 						<div class="row no-pointer">
 							<div class="yj-fav-product">
-					<img src="/wp-content/uploads/revize/happier-days.png" alt="Good Frozen Yogurt, Happier Days" class="yj-happier-days">
+					<img src="/wp-content/uploads/revize/happier-days.png" alt="<?= yj_h($yj_t(['tr' => 'İyi Dondurulmuş Yoğurt, Mutlu Günler', 'en' => 'Good Frozen Yogurt, Happier Days'])) ?>" class="yj-happier-days">
 					<img src="/wp-content/uploads/revize/fav-cup.png" alt="Yo-Ji" class="info-home-image">
 				</div>
 						</div>

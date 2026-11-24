@@ -10,7 +10,7 @@ include 'header.php';
 /* ---- Ayarlar -------------------------------------------------------------- */
 $yj_up           = 'https://yoji.com.tr/wp-content/uploads/';   // ürün görselleri klasörü
 $yj_theme        = '/wp-content/themes/yochi';                  // tema klasörü (Swiper yedeği için)
-$yj_default_lang = 'en';                                        // varsayılan dil: 'tr' veya 'en'
+$yj_default_lang = 'tr';                                        // varsayılan dil: 'tr' veya 'en'
 
 /* ---- HTML kaçış yardımcısı (WordPress gerekmez) --------------------------- */
 if (!function_exists('yj_h')) {
@@ -40,11 +40,11 @@ $yj_t = function ($v) use ($yj_lang) {
  *    labels: tema CSS'indeki ikon sınıfı (string) ya da ['img' => 'yol'] (görsel ikon)
  * ------------------------------------------------------------------------- */
 $yj_og = [
-    ['name' => 'Signature Tart',      'img' => 'urunler/yoji_f_signature.png',      'labels' => ['sig-tart-gf', 'sig-tart-the-og'], 'desc' => 'Fresh, smooth and perfectly balanced.'],
-    ['name' => 'Classic Vanilla',     'img' => 'urunler/yoji_f_vanilla.png',             'labels' => ['vanilla-gf'],                      'desc' => 'Light, smooth and timeless.'],
-    ['name' => 'Choccy',              'img' => 'urunler/yoji_f_choccy.png',           'labels' => ['chocolate-gf-vf'],                 'desc' => 'Rich chocolate flavour, bold and indulgent.'],
-    ['name' => 'Strawberry Cream',    'img' => 'urunler/yoji_f_strawberry.png',    'labels' => ['strawberry-cream-gf'],             'desc' => 'Creamy strawberry flavour made with real strawberries.'],
-    ['name' => 'Acai',                'img' => 'urunler/yoji_f_acai.png',                'labels' => ['acai-gf-vf', 'acai-organic-acai', 'acai-sustainably'], 'desc' => 'Bold berry flavour with premium organic açaí.'],
+    ['name' => ['tr' => 'İmza Ekşi',      'en' => 'Signature Tart'],   'img' => 'urunler/yoji_f_signature.png',  'labels' => ['sig-tart-gf', 'sig-tart-the-og'], 'desc' => ['tr' => 'Taze, pürüzsüz ve tam kıvamında dengeli.', 'en' => 'Fresh, smooth and perfectly balanced.']],
+    ['name' => ['tr' => 'Klasik Vanilya', 'en' => 'Classic Vanilla'],  'img' => 'urunler/yoji_f_vanilla.png',    'labels' => ['vanilla-gf'],                      'desc' => ['tr' => 'Hafif, pürüzsüz ve zamansız.', 'en' => 'Light, smooth and timeless.']],
+    ['name' => ['tr' => 'Çikolata',       'en' => 'Choccy'],           'img' => 'urunler/yoji_f_choccy.png',     'labels' => ['chocolate-gf-vf'],                 'desc' => ['tr' => 'Yoğun çikolata aroması; iddialı ve doyurucu.', 'en' => 'Rich chocolate flavour, bold and indulgent.']],
+    ['name' => ['tr' => 'Çilekli Krema',  'en' => 'Strawberry Cream'], 'img' => 'urunler/yoji_f_strawberry.png', 'labels' => ['strawberry-cream-gf'],             'desc' => ['tr' => 'Gerçek çileklerle hazırlanan kremamsı çilek aroması.', 'en' => 'Creamy strawberry flavour made with real strawberries.']],
+    ['name' => ['tr' => 'Açaí',           'en' => 'Açaí'],             'img' => 'urunler/yoji_f_acai.png',       'labels' => ['acai-gf-vf', 'acai-organic-acai', 'acai-sustainably'], 'desc' => ['tr' => 'Premium organik açaí ile dolu, iddialı orman meyvesi aroması.', 'en' => 'Bold berry flavour with premium organic açaí.']],
 ];
 
 /* 2) SEASONAL */
@@ -156,25 +156,25 @@ $yj_labels = function ($labels) use ($yj_up) {
 };
 
 // Frozen Yogurt / Seasonal / LTO için sol taraftaki ürün kartı
-$yj_row = function ($p) use ($yj_up, $yj_labels) { ?>
+$yj_row = function ($p) use ($yj_up, $yj_labels, $yj_t) { ?>
     <div class="row-yogurt">
-        <img src="<?= yj_h($yj_up . $p['img']) ?>" alt="<?= yj_h($p['name']) ?>">
-        <span class="name-yogurt"><?= yj_h($p['name']) ?></span>
+        <img src="<?= yj_h($yj_up . $p['img']) ?>" alt="<?= yj_h($yj_t($p['name'])) ?>">
+        <span class="name-yogurt"><?= yj_h($yj_t($p['name'])) ?></span>
         <div class="hide-pc">
             <?php $yj_labels($p['labels']); ?>
-            <p class="circle-yogurt-info-description"><?= yj_h($p['desc']) ?></p>
+            <p class="circle-yogurt-info-description"><?= yj_h($yj_t($p['desc'])) ?></p>
         </div>
     </div>
 <?php };
 
 // Büyük önizleme (masaüstü)
-$yj_preview = function ($p) use ($yj_up, $yj_labels) { ?>
+$yj_preview = function ($p) use ($yj_up, $yj_labels, $yj_t) { ?>
     <div class="yogurt-preview">
         <div class="image-yogurt-info" style="background:url(<?= yj_h($yj_up . $p['img']) ?>)"></div>
         <div class="circle-yogurt-info">
-            <h4 class="circle-yogurt-info-name"><?= yj_h($p['name']) ?></h4>
+            <h4 class="circle-yogurt-info-name"><?= yj_h($yj_t($p['name'])) ?></h4>
             <?php $yj_labels($p['labels']); ?>
-            <p class="circle-yogurt-info-description"><?= yj_h($p['desc']) ?></p>
+            <p class="circle-yogurt-info-description"><?= yj_h($yj_t($p['desc'])) ?></p>
         </div>
     </div>
 <?php };
@@ -229,7 +229,7 @@ $yj_slider = function ($items, $section_class, $anchor, $title, $text) use ($yj_
                                 <div class="yj-topping-preview-image yj-ph" role="img" aria-label="<?= yj_h($name) ?>" style="--ph:<?= yj_h($g['color']) ?>"></div>
                             <?php endif; ?>
                             <h4 class="circle-yogurt-info-name"><?= yj_h($name) ?></h4>
-                            <p class="circle-yogurt-info-description"><?= yj_h($desc) ?></p>
+                            <?php if ($desc !== ''): ?><p class="circle-yogurt-info-description"><?= yj_h($desc) ?></p><?php endif; ?>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -589,9 +589,10 @@ $yj_info = [
         <div class="grid-box row-2">
             <div class="row">
                 <h4 class="title-text" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                    FROZEN <span class="underlined" data-aos="line-text"><b>YOGURTS</b></span>
+                    <?php if ($yj_lang === 'en'): ?>FROZEN <span class="underlined" data-aos="line-text"><b>YOGURTS</b></span>
+                    <?php else: ?>DONDURULMUŞ <span class="underlined" data-aos="line-text"><b>YOĞURT</b></span><?php endif; ?>
                 </h4>
-                <div class="description"><p>Our signature soft-serve frozen yogurts,<br>available all year round.</p></div>
+                <div class="description"><p><?= $yj_t(['tr' => 'İmza yumuşak dondurulmuş yoğurtlarımız,<br>yıl boyunca hep burada.', 'en' => 'Our signature soft-serve frozen yogurts,<br>available all year round.']) ?></p></div>
                 <div class="grid-box row-3 mobile-slider">
                     <?php foreach ($yj_og as $p) $yj_row($p); ?>
                 </div>

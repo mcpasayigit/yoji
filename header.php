@@ -1,11 +1,40 @@
+<?php
+/* ===== Yo-Ji çok dilli altyapı — her sayfa önce header.php'yi include eder ===== */
+if (!function_exists('yj_h')) {
+    function yj_h($s) { return htmlspecialchars((string) $s, ENT_QUOTES, 'UTF-8'); }
+}
+$yj_langs = ['tr', 'en'];
+if (!isset($yj_lang)) {
+    $yj_lang = 'tr'; // kök dil: Türkçe
+    if (isset($lang) && in_array($lang, $yj_langs, true)) {
+        $yj_lang = $lang;                                  // sayfa üstünde $lang='en' ayarlandıysa
+    } elseif (isset($_GET['lang']) && in_array($_GET['lang'], $yj_langs, true)) {
+        $yj_lang = $_GET['lang'];
+        @setcookie('lang', $yj_lang, time() + 31536000, '/'); // tercihi hatırla
+    } elseif (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], $yj_langs, true)) {
+        $yj_lang = $_COOKIE['lang'];
+    } elseif (isset($_SERVER['REQUEST_URI']) && preg_match('#^/en(/|\?|$)#', $_SERVER['REQUEST_URI'])) {
+        $yj_lang = 'en';
+    }
+}
+if (!isset($yj_t)) {
+    $yj_t = function ($v) use ($yj_lang) {
+        if (!is_array($v)) return $v;
+        return isset($v[$yj_lang]) ? $v[$yj_lang] : (isset($v['tr']) ? $v['tr'] : reset($v));
+    };
+}
+$yj_self         = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/';
+$yj_switch_href  = $yj_self . '?lang=' . ($yj_lang === 'en' ? 'tr' : 'en');
+$yj_switch_label = $yj_lang === 'en' ? 'TR' : 'EN';
+?>
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="<?= $yj_lang === 'en' ? 'en-US' : 'tr-TR' ?>">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<title>Yo-Ji · Frozen Yogurt &amp; Açaí</title>
+	<title><?= yj_h($yj_t(['tr' => 'Yo-Ji · Dondurulmuş Yoğurt & Açaí', 'en' => 'Yo-Ji · Frozen Yogurt & Açaí'])) ?></title>
 <link data-rocket-prefetch href="https://fonts.googleapis.com" rel="dns-prefetch">
 <link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
 <link data-rocket-prefetch href="https://amplify.review-alerts.com" rel="dns-prefetch">
@@ -15,7 +44,7 @@
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
-	<meta name="description" content="Self-serve frozen yogurt and açaí, made your way. Choose your base, add your favourite fruit, toppings and sauces." />
+	<meta name="description" content="<?= yj_h($yj_t(['tr' => 'Kendi tarzında, self-servis dondurulmuş yoğurt ve açaí. Kaseni seç; en sevdiğin meyve, topping ve soslarla tamamla.', 'en' => 'Self-serve frozen yogurt and açaí, made your way. Choose your base, add your favourite fruit, toppings and sauces.'])) ?>" />
 	<link rel="canonical" href="https://yoji.com.tr/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
@@ -117,21 +146,21 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<a href="/">
 			<span class="logo"></span>
 		</a>
-		<div  class="menu-main-menu-container"><ul id="menu-main-menu" class="main-menu"><li id="menu-item-872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-872"><a style="display: none;" href="#">Our Products</a>
-<ul class="sub-menu">
-	<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://yoji.com.tr/bases.php/">Bases</a></li>
-	<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="https://yoji.com.tr/toppings.php/">Toppings</a></li>
-	<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="https://yoji.com.tr/souces.php/">Souces</a></li>
-</ul>
-	<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://yoji.com.tr/products.php/">Our Products</a></li>
-
-</li>
-<li id="menu-item-873" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-873"><a href="https://yoji.com.tr/story.php/">Our Story</a>
-</li>
-<li id="menu-item-1414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1414"><a href="https://yoji.com.tr/locations.php/">Locations</a></li>
-</li>
-<li id="menu-item-874" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-874"><a href="https://yoji.com.tr/contact.php">Contact Us</a>
-<li id="menu-item-2629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2629"><a href="/contact.php/#yochi-faq">FAQs</a></li>
-<li id="menu-item-2629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2629"><a href="#">TR/EN</a></li>
-</li>
-</ul></div>	</div><link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/camp.css?ver=1790480713" />
+		<div class="menu-main-menu-container">
+				<ul id="menu-main-menu" class="main-menu">
+					<li class="menu-item menu-item-has-children">
+						<a href="/products.php"><?= yj_h($yj_t(['tr' => 'Ürünler', 'en' => 'Products'])) ?></a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a href="/products.php#frozen-yogurt"><?= yj_h($yj_t(['tr' => 'Dondurulmuş Yoğurt', 'en' => 'Frozen Yogurt'])) ?></a></li>
+							<li class="menu-item"><a href="/products.php#fruits"><?= yj_h($yj_t(['tr' => 'Meyveler', 'en' => 'Fruits'])) ?></a></li>
+							<li class="menu-item"><a href="/products.php#toppings"><?= yj_h($yj_t(['tr' => 'Toppingler', 'en' => 'Toppings'])) ?></a></li>
+							<li class="menu-item"><a href="/products.php#sauces"><?= yj_h($yj_t(['tr' => 'Soslar', 'en' => 'Sauces'])) ?></a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a href="/story.php"><?= yj_h($yj_t(['tr' => 'Hikayemiz', 'en' => 'Our Story'])) ?></a></li>
+					<li class="menu-item"><a href="/locations.php"><?= yj_h($yj_t(['tr' => 'Şubeler', 'en' => 'Locations'])) ?></a></li>
+					<li class="menu-item"><a href="/contact.php"><?= yj_h($yj_t(['tr' => 'İletişim', 'en' => 'Contact'])) ?></a></li>
+					<li class="menu-item"><a href="/contact.php#yochi-faq"><?= yj_h($yj_t(['tr' => 'SSS', 'en' => 'FAQs'])) ?></a></li>
+					<li class="menu-item menu-item-lang"><a href="<?= yj_h($yj_switch_href) ?>" rel="nofollow"><?= $yj_switch_label ?></a></li>
+				</ul>
+			</div>	</div><link data-minify="1" rel="stylesheet" href="https://yoji.com.tr/wp-content/themes/yochi/css/camp.css?ver=1790480713" />
