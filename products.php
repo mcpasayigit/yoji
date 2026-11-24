@@ -68,8 +68,8 @@ $yj_lto = [
  * ------------------------------------------------------------------------- */
 $yj_groups = [
     'fruit'  => ['label' => ['tr' => 'Meyve',  'en' => 'Fruit'],   'color' => '#edb7b4'],
-    'crunch' => ['label' => ['tr' => 'Çıtır',  'en' => 'Crunchy'], 'color' => '#f2ce2f'],
-    'sweet'  => ['label' => ['tr' => 'Tatlı',  'en' => 'Sweet'],   'color' => '#c1d56f'],
+    'crunch' => ['label' => ['tr' => 'Çıtır',  'en' => 'Crunchy'], 'color' => '#81B2E0'],
+    'sweet'  => ['label' => ['tr' => 'Tatlı',  'en' => 'Sweet'],   'color' => '#D9A3A6'],
     'sauce'  => ['label' => ['tr' => 'Sos',    'en' => 'Sauce'],   'color' => '#a8735a'],
 ];
 $yj_toppings = [
@@ -558,13 +558,6 @@ $yj_sauce_strip = function ($items) use ($yj_up, $yj_t, $yj_lang) { ?>
 
 <section class="page-header">
     <div class="page-header-background" style="background:url(/wp-content/uploads/revize/products-banner.jpg);"></div>
-    <div class="wrapper">
-        <h2 class="page-title" data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-            <?= yj_h($yj_t(['tr' => '', 'en' => 'Our'])) ?>
-            <span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Ürünlerimiz', 'en' => 'Products'])) ?></b></span>
-        </h2>
-    </div>
-    <div class="wave inner"></div>
 </section>
 
 <?php include 'partials/how-it-works.php'; ?>
@@ -577,23 +570,7 @@ $yj_info = [
     ['2022/04/product-info-icon-4.png', ['tr' => ['Kaseni istediğin gibi karıştır,', 'ruh haline uyan kaseyi yarat.', ''], 'en' => ['Mix it your way and create a bowl', 'that fits your mood.', '']]],
 ];
 ?>
-<section class="product-info-section">
-    <div class="wrapper">
-        <div class="grid-box row-4">
-            <?php foreach ($yj_info as $n => $row):
-                $t = $row[1][isset($row[1][$yj_lang]) ? $yj_lang : 'tr']; ?>
-                <div class="row-icon-text no-animate" data-aos="fade-up" data-aos-delay="<?= 200 * ($n + 1) ?>" data-aos-duration="600" data-aos-once="true">
-                    <i class="icon" style="background:url(<?= yj_h($yj_up . $row[0]) ?>);"></i>
-                    <span>
-                        <p><?= yj_h($t[0]) ?></p><br>
-                        <h4><strong><?= yj_h($t[1]) ?></strong></h4>
-                        <?php if ($t[2]): ?><br><p><?= yj_h($t[2]) ?></p><?php endif; ?>
-                    </span>
-                </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</section>
+
 
 <!-- ============ FROZEN YOGURT / AÇAÍ ============ -->
 <section style="padding-bottom: 300px !important;" class="yogurt-section ogg-section" id="frozen-yogurt">
@@ -659,6 +636,13 @@ $yj_info = [
 </section>
 <?php endif; ?>
 
+<!-- ============ TOPPINGS ============ -->
+<?php $yj_slider(
+    $yj_toppings, 'toppings-block', 'toppings',
+    ['tr' => 'TOPPING DÜNYASI', 'en' => 'OUR TOPPINGS'],
+    ['tr' => 'Meyveden çıtıra, çikolatadan tatlıya: kendi kaseni istediğin gibi tamamla.', 'en' => 'Create what makes you happy with our wide range of fruity, crunchy and sweet toppings.']
+); ?>
+
 <!-- ============ FRUITS (statik ızgara, swiper'a dokunmaz) ============ -->
 <section class="yj-fruits-section" id="fruits">
     <div class="wrapper">
@@ -675,15 +659,27 @@ $yj_info = [
     </div>
 </section>
 
-<!-- ============ TOPPINGS ============ -->
-<?php $yj_slider(
-    $yj_toppings, 'toppings-block', 'toppings',
-    ['tr' => 'TOPPING DÜNYASI', 'en' => 'OUR TOPPINGS'],
-    ['tr' => 'Meyveden çıtıra, çikolatadan tatlıya: kendi kaseni istediğin gibi tamamla.', 'en' => 'Create what makes you happy with our wide range of fruity, crunchy and sweet toppings.']
-); ?>
-
 <!-- ============ SAUCES ============ -->
 <?php $yj_sauce_strip($yj_sauces); ?>
+
+<!-- ============ VEKTÖREL YUVARLAKLAR (en altta) ============ -->
+<section class="product-info-section">
+    <div class="wrapper">
+        <div class="grid-box row-4">
+            <?php foreach ($yj_info as $n => $row):
+                $t = $row[1][isset($row[1][$yj_lang]) ? $yj_lang : 'tr']; ?>
+                <div class="row-icon-text no-animate" data-aos="fade-up" data-aos-delay="<?= 200 * ($n + 1) ?>" data-aos-duration="600" data-aos-once="true">
+                    <i class="icon" style="background:url(<?= yj_h($yj_up . $row[0]) ?>);"></i>
+                    <span>
+                        <p><?= yj_h($t[0]) ?></p><br>
+                        <h4><strong><?= yj_h($t[1]) ?></strong></h4>
+                        <?php if ($t[2]): ?><br><p><?= yj_h($t[2]) ?></p><?php endif; ?>
+                    </span>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
 
 <!-- ============ ETKİLEŞİMLER (yj-bases) ============ -->
 <!-- Her .yogurt-section kendi içinde N. ürün kartını N. önizlemeyle eşler; ID'ye bağlı değildir. -->

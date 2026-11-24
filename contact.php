@@ -4,14 +4,12 @@ include 'header.php';
 
 <section  class="page-header">
    <div  class="page-header-background" style="background: url(/wp-content/uploads/revize/contact-banner.jpg);"></div>
-   <div  class="wrapper">
-      <h2 class="page-title aos-no-animate" data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-         <span class="underlined" data-aos="line-text">
-            <b><?= yj_h($yj_t(['tr' => 'İletişim', 'en' => 'Contact us'])) ?></b>
-         </span>
-      </h2>
+</section>
+
+<section class="yj-page-head">
+   <div class="wrapper">
+      <h1 class="page-title"><span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'İletişim', 'en' => 'Contact us'])) ?></b></span></h1>
    </div>
-   <div  class="wave inner"></div>
 </section>
 
 <section  class="contact-section">
@@ -31,7 +29,7 @@ include 'header.php';
          <div class="row-list no-animate" data-aos="fade-up" data-aos-delay="800" data-aos-duration="600" data-aos-once="true">
             <a href="mailto:franchise@yoji.com.tr">
                <div class="row" style="background: url(/wp-content/uploads/revize/franchise.jpg);">
-                  <span class="name-links"><span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Bayilik', 'en' => 'Franchising'])) ?></b></span></span>
+                  <span class="name-links"><span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Frenchise', 'en' => 'Franchising'])) ?></b></span></span>
                </div>
             </a>
             <p style="text-align: center;"><?= yj_h($yj_t(["tr" => "Şubelerimiz bayilik usulü işletilmiyor ama ilgileniyorsan bize bir mesaj at!", "en" => "Our venues aren’t franchised but if you’re interested, shoot us a message!"])) ?></p>
@@ -231,9 +229,6 @@ include 'header.php';
                      </div>
                   </div>
                      </div>
-                  <div class="row">
-            <img src="https://yoji.com.tr/wp-content/uploads/2022/04/favorites-image.png" alt="" class="faq-image yochi">
-         </div>
       </div>
    </div>
 </section>

@@ -4,15 +4,13 @@ include 'header.php';
 <section  class="page-header bg-video-wrap">
 	<!-- <video src="https://yoji.com.tr/wp-content/uploads/2022/06/banner_our_story.mp4" loop muted autoplay></video> -->
 	<div  class="page-header-background" style="background: url(/wp-content/uploads/revize/story-banner.jpg); display: block !important;"></div>
-	<div  class="wrapper">
-		<h2 class="page-title" data-aos="flip-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-			<span class="underlined" data-aos="line-text">
-				<b><?= yj_h($yj_t(['tr' => 'Hikayemiz', 'en' => 'Our story'])) ?></b>
-			</span>
-		</h2>
-		<h3 class="sub-title"><?= $yj_t(['tr' => 'Sadece bir <b>kaseden</b> fazlası.', 'en' => 'More than just a <b>Bowl.</b>']) ?> </h3>
+</section>
+
+<section class="yj-page-head">
+	<div class="wrapper">
+		<h1 class="page-title"><span class="underlined" data-aos="line-text"><b><?= yj_h($yj_t(['tr' => 'Hikayemiz', 'en' => 'Our story'])) ?></b></span></h1>
+		<h3 class="sub-title"><?= $yj_t(['tr' => 'Sadece bir <b>kaseden</b> fazlası.', 'en' => 'More than just a <b>Bowl.</b>']) ?></h3>
 	</div>
-	<div  class="wave inner"></div>
 </section>
 
 

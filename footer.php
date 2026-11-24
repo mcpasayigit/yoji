@@ -1,13 +1,7 @@
 <footer class="yj-footer" data-wpr-lazyrender="1">
   <div class="yj-footer__main">
-    <span class="yj-footer__blob b1" aria-hidden="true"></span>
-    <span class="yj-footer__blob b2" aria-hidden="true"></span>
-    <span class="yj-footer__blob b3" aria-hidden="true"></span>
-    <span class="yj-footer__blob b4" aria-hidden="true"></span>
-    <span class="yj-footer__blob b5" aria-hidden="true"></span>
 
     <div class="yj-footer__intro">
-      <a href="/"><img class="yj-footer__logo" src="/wp-content/themes/yochi/img/yoji-logo.png" alt="Yo-Ji Dondurulmuş Yoğurt &amp; Açaí"></a>
       <h2 class="yj-footer__title"><?= $yj_t(['tr' => 'Küçük bir mola,<br>senin tarzınla.', 'en' => 'A little break,<br>your way.']) ?></h2>
       <p class="yj-footer__text"><?= yj_h($yj_t(['tr' => 'Ruh halini, damak zevkini, merakını sen getir. İlk karışımdan son toppinge kadar Yoji, her şeyden küçük bir molan.', 'en' => 'You bring your mood, your taste, your curiosity. From the first swirl to the last topping, Yoji is your little break from all that.'])) ?></p>
       <p class="yj-footer__tag"><?= yj_h($yj_t(['tr' => 'Yoji. Hayatın Tadı.', 'en' => 'Yoji. Taste of Life.'])) ?></p>
@@ -20,22 +14,34 @@
     <div class="yj-footer__art" role="img" aria-label="<?= yj_h($yj_t(['tr' => 'Yo-Ji ekibi', 'en' => 'Yo-Ji team'])) ?>"></div>
 
     <div class="yj-footer__card">
-      <ul class="yj-footer__menu">
-        <li><a href="/products.php#frozen-yogurt"><?= yj_h($yj_t(['tr' => 'Dondurulmuş Yoğurt', 'en' => 'Frozen Yogurt'])) ?></a></li>
-        <li><a href="/story.php"><?= yj_h($yj_t(['tr' => 'Hikayemiz', 'en' => 'Our Story'])) ?></a></li>
-        <li><a href="/products.php#frozen-yogurt">Açaí</a></li>
-        <li><a href="/locations.php"><?= yj_h($yj_t(['tr' => 'Şubeler', 'en' => 'Locations'])) ?></a></li>
-        <li><a href="/products.php#toppings"><?= yj_h($yj_t(['tr' => 'Toppingler', 'en' => 'Toppings'])) ?></a></li>
-        <li><a href="/contact.php#yochi-faq"><?= yj_h($yj_t(['tr' => 'SSS', 'en' => 'FAQs'])) ?></a></li>
-        <li><a href="/products.php#sauces"><?= yj_h($yj_t(['tr' => 'Soslar', 'en' => 'Sauces'])) ?></a></li>
-        <li><a href="/contact.php"><?= yj_h($yj_t(['tr' => 'İletişim', 'en' => 'Contact'])) ?></a></li>
-      </ul>
-      <div class="yj-footer__social">
-        <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg></a>
-        <a href="#" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3h-3.1v12.3a2.8 2.8 0 1 1-2.8-2.8c.3 0 .6 0 .8.1V9.4a5.9 5.9 0 1 0 5.1 5.8V9.1c1.1.8 2.5 1.3 3.9 1.3V7.3c-2.1 0-3.9-1.8-3.9-4.3z"/></svg></a>
-        <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8V6.4c0-.8.2-1.2 1.3-1.2H17V2h-2.6C11.2 2 10 3.6 10 6v2H7.5v3.3H10V22h4V11.3h2.8L17.3 8H14z"/></svg></a>
+      <div class="yj-footer__cols">
+        <div class="yj-footer__col">
+          <h3 class="yj-footer__colhead"><span>Explore</span></h3>
+          <ul>
+            <li><a href="/products.php#frozen-yogurt"><?= yj_h($yj_t(['tr' => 'Dondurulmuş Yoğurt', 'en' => 'Frozen Yogurt'])) ?></a></li>
+            <li><a href="/products.php#frozen-yogurt">Açaí</a></li>
+            <li><a href="/products.php#toppings"><?= yj_h($yj_t(['tr' => 'Toppingler', 'en' => 'Toppings'])) ?></a></li>
+            <li><a href="/products.php#sauces"><?= yj_h($yj_t(['tr' => 'Soslar', 'en' => 'Sauces'])) ?></a></li>
+          </ul>
+        </div>
+        <div class="yj-footer__col">
+          <h3 class="yj-footer__colhead"><span>Yoji</span></h3>
+          <ul>
+            <li><a href="/story.php"><?= yj_h($yj_t(['tr' => 'Hikayemiz', 'en' => 'Our Story'])) ?></a></li>
+            <li><a href="/locations.php"><?= yj_h($yj_t(['tr' => 'Şubeler', 'en' => 'Locations'])) ?></a></li>
+            <li><a href="/contact.php#yochi-faq"><?= yj_h($yj_t(['tr' => 'SSS', 'en' => 'FAQs'])) ?></a></li>
+            <li><a href="/contact.php"><?= yj_h($yj_t(['tr' => 'İletişim', 'en' => 'Contact'])) ?></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="yj-footer__lang"><a class="<?= $yj_lang === 'tr' ? 'is-active' : '' ?>" href="?lang=tr" hreflang="tr">TR</a> / <a class="<?= $yj_lang === 'en' ? 'is-active' : '' ?>" href="?lang=en" hreflang="en">EN</a></div>
+      <div class="yj-footer__meta">
+        <div class="yj-footer__social">
+          <a href="https://www.instagram.com/yojifrozen/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://www.tiktok.com/yojifrozen/" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3h-3.1v12.3a2.8 2.8 0 1 1-2.8-2.8c.3 0 .6 0 .8.1V9.4a5.9 5.9 0 1 0 5.1 5.8V9.1c1.1.8 2.5 1.3 3.9 1.3V7.3c-2.1 0-3.9-1.8-3.9-4.3z"/></svg></a>
+          <a href="https://www.facebook.com/yojifrozen/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8V6.4c0-.8.2-1.2 1.3-1.2H17V2h-2.6C11.2 2 10 3.6 10 6v2H7.5v3.3H10V22h4V11.3h2.8L17.3 8H14z"/></svg></a>
+        </div>
+        <div class="yj-footer__lang"><a class="<?= $yj_lang === 'tr' ? 'is-active' : '' ?>" href="?lang=tr" hreflang="tr">TR</a> / <a class="<?= $yj_lang === 'en' ? 'is-active' : '' ?>" href="?lang=en" hreflang="en">EN</a></div>
+      </div>
     </div>
   </div>
 

@@ -92,7 +92,7 @@ body.page-template-page-faq .content-page hr {
 
 .message-ticker a {
   text-decoration: underline;
-  color: #f8d54b;
+  color: #81B2E0;
 }
 
 .custom-banner {
@@ -434,7 +434,7 @@ footer {
 }
 
 .social-icon:hover {
-  background: #f2ce2f;
+  background: #81B2E0;
   box-shadow: 3px 4px 4px #fff;
   transition: all 0.5s;
 }
@@ -553,12 +553,12 @@ footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #74c3cd;
+  background: #182844;
   position: relative;
 }
 
 .page-template-our-toppings .page-header {
-  background: #c1d56f;
+  background: #D9A3A6;
 }
 
 .page-template-our-story .page-header {
@@ -574,7 +574,7 @@ footer {
 }
 
 .page-template-venues .page-header {
-  background: #f2ce2f;
+  background: #81B2E0;
 }
 
 .page-header-background {
@@ -633,7 +633,7 @@ footer {
   content: '';
   display: inline-block;
   position: absolute;
-  background: #c1d56f;
+  background: #D9A3A6;
   height: 50%;
   width: 106%;
   z-index: 0;
@@ -679,7 +679,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
   left: -3%;
   z-index: 0;
   bottom: 0px;
-  background: #f2ce2f;
+  background: #81B2E0;
 }
 
 .description p,
@@ -776,7 +776,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 
 .row-icon-text:hover span b,
 .row-icon-text:hover span h4 {
-  color: #c1d56f;
+  color: #D9A3A6;
 }
 
 .product-info-section .grid-box {
@@ -1131,7 +1131,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .menuPanel .menu-item a:hover {
-  color: #74c3cd;
+  color: #182844;
 }
 
 #menu-main-menu {
@@ -1146,7 +1146,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 #menu-main-menu .sub-menu a {
-  color: #74c3cd;
+  color: #182844;
 }
 
 #menu-main-menu .sub-menu a:hover {
@@ -1182,7 +1182,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 .menuPanel .current_page_item {
   font-size: 40px;
   line-height: 32px;
-  color: #74c3cd;
+  color: #182844;
 }
 
 .title-text[data-aos='line-text'] i:after,
@@ -1190,7 +1190,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
   content: '';
   display: inline-block;
   position: absolute;
-  background: #c1d56f;
+  background: #D9A3A6;
   height: 54%;
   width: 106%;
   left: -3%;
@@ -1207,7 +1207,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .swiper-slide .title-text .underlined:after {
-  background: #f8d54b;
+  background: #81B2E0;
 }
 
 .underlined.aos-animate[data-aos='line-text']:after,
@@ -1218,7 +1218,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 /* Multi-line fix for page titles */
 .page-title .underlined {
   display: inline;
-  background-image: linear-gradient(#c1d56f, #c1d56f);
+  background-image: linear-gradient(#D9A3A6, #D9A3A6);
   background-repeat: no-repeat;
   background-position: 0% 100%;
   background-size: 0% 50%;
@@ -1523,7 +1523,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .menu-slider .swiper-slide:nth-child(3n) .title-text {
-  color: #f8d54b !important;
+  color: #81B2E0 !important;
 }
 
 .home-menu-slider .swiper-slide:nth-child(3n) .title-text .underlined:after {
@@ -1681,12 +1681,12 @@ body.home .swiper-wrapper .swiper-slide.has-link {
   height: 40%;
   left: 0;
   bottom: 0;
-  background: #c1d56f;
+  background: #D9A3A6;
   z-index: -1;
 }
 
 .single-news a:not(#sb_instagram a):hover::after {
-  background: #f8d54b;
+  background: #81B2E0;
 }
 
 .single-news h1,
@@ -1727,7 +1727,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .info-home-slider .title-text .underlined:after {
-  background: #c1d56f;
+  background: #D9A3A6;
 }
 
 .slider-info-home-section .arrow-box {
@@ -1752,7 +1752,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 .arrow-box .home-banner-slider-next {
   width: 64px;
   height: 64px;
-  background: #f2ce2f url(./img/arrow-right.svg);
+  background: #81B2E0 url(./img/arrow-right.svg);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -2179,12 +2179,12 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 
 .page-template-our-story .chi-club-section .row-list:nth-child(1) .row:before,
 .page-template-contact-us .contact-section .row-list:nth-child(1) .row:before {
-  background: #c1d56f;
+  background: #D9A3A6;
 }
 
 .page-template-our-story .chi-club-section .row-list:nth-child(2) .row:before,
 .page-template-contact-us .contact-section .row-list:nth-child(2) .row:before {
-  background: #74c3cd;
+  background: #182844;
 }
 
 .page-template-our-story .chi-club-section .row-list:nth-child(3) .row:before,
@@ -2194,12 +2194,12 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 
 .page-template-our-story .chi-club-section .row-list:nth-child(4) .row:before,
 .page-template-contact-us .contact-section .row-list:nth-child(4) .row:before {
-  background: #c1d56f;
+  background: #D9A3A6;
 }
 
 .page-template-our-story .chi-club-section .row-list:nth-child(5) .row:before,
 .page-template-contact-us .contact-section .row-list:nth-child(5) .row:before {
-  background: #74c3cd;
+  background: #182844;
 }
 
 .page-template-our-story .chi-club-section .row-list .underlined:after {
@@ -2233,7 +2233,7 @@ body.home .swiper-wrapper .swiper-slide.has-link {
 }
 
 .page-template-our-toppings .page-header-background:before {
-  background: #c1d56f;
+  background: #D9A3A6;
 }
 
 .page-template-our-toppings .page-title .underlined:after {
@@ -2669,7 +2669,7 @@ div.sub-intro p {
 }
 
 .row-news:hover .name-news {
-  color: #f8d54b;
+  color: #81B2E0;
 }
 
 .row-news:hover .desc-news {
@@ -2807,7 +2807,7 @@ div.sub-intro p {
 
 .contact-form-box .wpcf7-form input,
 .contact-form-box .wpcf7-form textarea {
-  background: #f2ce2f;
+  background: #81B2E0;
   border: initial;
   outline: initial;
   font-family: 'Manrope', sans-serif;
@@ -2831,7 +2831,7 @@ div.sub-intro p {
 
 .contact-form-box .wpcf7-form select,
 .venue_location {
-  background: #f2ce2f;
+  background: #81B2E0;
   border: initial;
   outline: initial;
   font-family: 'Manrope', sans-serif;
@@ -3356,7 +3356,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
 
 .pin-location:hover,
 .tel-location:hover {
-  color: #c1d56f;
+  color: #D9A3A6;
 }
 
 .pin-location:before {
@@ -3623,7 +3623,7 @@ body.page-campaign .wpcf7-form .send-btn:before {
   padding: 0;
   margin-bottom: 0;
   background: linear-gradient(116.29deg,
-      #74c3cd -1.19%,
+      #182844 -1.19%,
       rgba(116, 195, 205, 0) 133.58%);
 }
 
@@ -4091,7 +4091,7 @@ section .wrapper.environment_intro {
 .pledge-row:nth-child(4),
 .pledge-row:nth-child(6),
 .pledge-row.solid {
-  background: linear-gradient(91.12deg, #8fc398 17.5%, #69bab3 46.2%);
+  background: linear-gradient(91.12deg, #D9A3A6 17.5%, #182844 46.2%);
   padding-top: 0;
 }
 
@@ -4556,7 +4556,7 @@ section .wrapper.environment_intro {
 }
 
 .row-video-1 .underlined:nth-child(1):after {
-  background: #c1d56f;
+  background: #D9A3A6;
 }
 
 .row-video-1 .underlined:nth-child(2):after {
@@ -4568,7 +4568,7 @@ section .wrapper.environment_intro {
 }
 
 .row-video-2 .underlined:after {
-  background: #f8d54b;
+  background: #81B2E0;
 }
 
 .row-video-3 .underlined:after {
@@ -4675,12 +4675,12 @@ h3.title-charities {
 }
 
 .page-template-news .page-title .underlined:after {
-  background: #f2ce2f;
+  background: #81B2E0;
   mix-blend-mode: hard-light;
 }
 
 .faq-section .underlined:after {
-  background: #f2ce2f;
+  background: #81B2E0;
   height: 28px;
   margin-top: 15px;
 }
@@ -4703,7 +4703,7 @@ h3.title-charities {
 .contact-form-section-career-text strong .underlined:after {
   height: 25px;
   margin-top: 16px;
-  background: #f2ce2f;
+  background: #81B2E0;
 }
 
 .name-position .underlined:after {
@@ -4964,13 +4964,13 @@ form.cf7mls input.wpcf7-form-control.wpcf7-submit:hover {
 }
 
 .environment-slider .swiper-pagination-bullet {
-  background: #c1d56f !important;
+  background: #D9A3A6 !important;
   width: 10px;
   height: 10px;
 }
 
 .toppings-slider .swiper-pagination-bullet {
-  background: #c1d56f !important;
+  background: #D9A3A6 !important;
 }
 
 .toppings-slider .swiper-pagination,
@@ -5232,7 +5232,7 @@ input[type='file']::file-selector-button {
 }
 
 .shop-now span::after {
-  background: #f2ce2f;
+  background: #81B2E0;
 }
 
 .content-box-gift-card {
@@ -5327,7 +5327,7 @@ input[type='file']::file-selector-button {
 .description-block h2 strong:after {
   height: 25px;
   margin-top: 16px;
-  background: #f2ce2f;
+  background: #81B2E0;
   width: 100%;
   content: '';
   display: inline-block;
@@ -5339,7 +5339,7 @@ input[type='file']::file-selector-button {
 }
 
 .key-stats-section {
-  background: linear-gradient(91.12deg, #8fc398 17.5%, #69bab3 46.2%);
+  background: linear-gradient(91.12deg, #D9A3A6 17.5%, #182844 46.2%);
   padding: 0;
   position: relative;
   overflow: hidden;
@@ -5391,7 +5391,7 @@ input[type='file']::file-selector-button {
 .key-stats-section .stat-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 35px rgba(143, 195, 152, 0.15);
-  border-color: #8fc398;
+  border-color: #D9A3A6;
 }
 
 .key-stats-section .stat-icon {
@@ -5437,7 +5437,7 @@ input[type='file']::file-selector-button {
 
 .key-stats-section .stat-progress {
   height: 100%;
-  background: linear-gradient(90deg, #8fc398, #69bab3);
+  background: linear-gradient(90deg, #D9A3A6, #182844);
   border-radius: 4px;
   transition: width 1.5s cubic-bezier(0.1, 0.8, 0.2, 1);
 }
@@ -5992,7 +5992,7 @@ input[type='file']::file-selector-button {
 
   .chi-bear-clud {
     max-width: 280px;
-    border-bottom: 4px solid #f2ce2f;
+    border-bottom: 4px solid #81B2E0;
     margin-bottom: 48px;
   }
 
@@ -6180,7 +6180,7 @@ input[type='file']::file-selector-button {
     width: 86%;
     max-width: 360px;
     margin: 0 auto 24px auto;
-    border-bottom: 4px solid #f2ce2f;
+    border-bottom: 4px solid #81B2E0;
   }
 
   .home-banner .arrow-box {
@@ -8123,13 +8123,13 @@ input[type='file']::file-selector-button {
   height: 40%;
   left: 0;
   bottom: 0;
-  background: #c1d56f;
+  background: #D9A3A6;
   z-index: -1;
 }
 
 #ja-jobs-widget .apply a:hover::after,
 #ja-jobs-widget .ja-job-list .job a:hover::after {
-  background: #f8d54b;
+  background: #81B2E0;
 }
 
 #ja-jobs-widget .apply input[type="button"] {
@@ -8139,7 +8139,7 @@ input[type='file']::file-selector-button {
   -webkit-appearance: none !important;
   padding: 8px 12px;
   border-radius: 0;
-  background-color: #c1d56f;
+  background-color: #D9A3A6;
   border: 2px solid #000;
   font-size: 16px;
   border-radius: 4px;
@@ -8148,7 +8148,7 @@ input[type='file']::file-selector-button {
 
 #ja-jobs-widget .apply input[type="button"]:hover,
 #ja-jobs-widget .apply input[type="button"]:active {
-  background-color: #f8d54b;
+  background-color: #81B2E0;
 }
 
 #ja-jobs-widget .ja-job-details ul {
@@ -8254,7 +8254,7 @@ input[type='file']::file-selector-button {
   -webkit-appearance: none !important;
   padding: 5px 12px;
   border-radius: 0;
-  background-color: #c1d56f;
+  background-color: #D9A3A6;
   border: 2px solid #000;
   font-size: 16px;
   border-radius: 4px;
@@ -8263,7 +8263,7 @@ input[type='file']::file-selector-button {
 
 #ja-jobs-widget .ja-form input[type="button"]:hover,
 #ja-jobs-widget .ja-form input[type="button"]:active {
-  background-color: #f8d54b;
+  background-color: #81B2E0;
 }
 
 #ja-jobs-widget div.ja-form {
@@ -8981,8 +8981,8 @@ body.glightbox-open {
 .timeline-container {
   --text-primary: #000000;
   --text-secondary: #94a3b8;
-  --accent-primary: #8fc398;
-  --accent-secondary: #69bab3;
+  --accent-primary: #D9A3A6;
+  --accent-secondary: #182844;
   --node-bg: #1e1b4b;
   --stroke-color: url(#gd);
 
@@ -9089,7 +9089,7 @@ body.glightbox-open {
 
 /* HTML Cards styling */
 .text-card {
-  background: linear-gradient(91.12deg, #8fc398 17.5%, #69bab3 46.2%);
+  background: linear-gradient(91.12deg, #D9A3A6 17.5%, #182844 46.2%);
   padding: 20px;
   border-radius: 12px;
   backdrop-filter: blur(8px);
@@ -9218,7 +9218,7 @@ body.glightbox-open {
 
 .node-pulse {
   fill: none;
-  stroke: #8fc398;
+  stroke: #D9A3A6;
   stroke-width: 2;
   opacity: 0;
 }
@@ -9232,11 +9232,11 @@ body.glightbox-open {
 
   0%,
   100% {
-    filter: drop-shadow(0 0 6px #8fc39840);
+    filter: drop-shadow(0 0 6px #D9A3A640);
   }
 
   50% {
-    filter: drop-shadow(0 0 18px #69bab380);
+    filter: drop-shadow(0 0 18px #18284480);
   }
 }
 
@@ -9374,3 +9374,179 @@ body.glightbox-open {
 .yj-venue-head .underlined{display:inline-block}
 .yj-venue-head--pop{margin-top:60px}
 .yj-venue-sub{text-align:center;font-family:'Manrope',sans-serif;color:#36332e;margin:0 0 20px}
+
+/* ===================== REVİZE 1124 ===================== */
+
+/* --- Bannerlar: dalga kalktı, tam görsel görünüyor, beyaz perde kalktı --- */
+.page-header {
+  height: auto !important;
+  min-height: 0 !important;
+  aspect-ratio: 2172 / 724;
+  background: #fff;
+}
+.page-header-background:before { display: none !important; }
+.wave.inner { display: none !important; }
+
+/* --- Banner altına taşınan sayfa başlıkları --- */
+.yj-page-head {
+  text-align: center;
+  padding: 64px 0 0;
+}
+.yj-page-head .page-title {
+  font-size: 72px;
+  line-height: 1.05;
+  margin: 0;
+  color: #36332e;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+}
+.yj-page-head .sub-title {
+  margin: 18px 0 0;
+  font-weight: 400;
+}
+/* banner altı başlıklarda altı çizili efekti animasyon beklemeden görünsün */
+.yj-page-head .underlined {
+  display: inline;
+  background-image: linear-gradient(#81B2E0, #81B2E0);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 12%;
+  padding: 0 4px;
+  margin: 0 -4px;
+}
+@media (max-width: 991px) {
+  .yj-page-head { padding-top: 40px; }
+  .yj-page-head .page-title { font-size: 42px; }
+}
+@media (max-width: 575px) {
+  .yj-page-head .page-title { font-size: 32px; }
+}
+
+/* --- Menü paneli: içerik taşınca alttaki yazılar kesilmesin --- */
+.menuPanel {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
+}
+.menuPanel > * { padding-bottom: 24px; }
+
+/* --- Oklar: site genelinde yeni swoosh oklar --- */
+.home-menu-slider .wrapper .title-text:after,
+.wthats-title:after,
+.home-banner:after,
+.join-title:after,
+.see-more:after,
+.toppings-next:after,
+.environment-next:after,
+.contact-form-box .wpcf7-form .send-btn:after {
+  background-image: url(/wp-content/uploads/revize/swoosh-sag.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+.toppings-prev:before,
+.environment-prev:before {
+  background-image: url(/wp-content/uploads/revize/swoosh-sol.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+#menu-main-menu .menu-item-has-children > a,
+.wpcf7-form select,
+.venue_location {
+  background-image: url(/wp-content/uploads/revize/swoosh-down.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: auto 60% !important;
+}
+/* Slider gezinme düğmeleri: yuvarlak buton içinde ok ortalansın */
+.arrow-box .info-home-slider-next,
+.arrow-box .home-banner-slider-next {
+  background: #81B2E0 url(/wp-content/uploads/revize/swoosh-sag.png) no-repeat center !important;
+  background-size: 58% auto !important;
+}
+.arrow-box .info-home-slider-prev,
+.arrow-box .home-banner-slider-prev {
+  background: #fff url(/wp-content/uploads/revize/swoosh-sol.png) no-repeat center !important;
+  background-size: 58% auto !important;
+}
+
+/* --- Yo-Chi'den gelen dönen "SHARE THE CHI" yuvarlağı kaldırıldı;
+       anasayfada sadece bizim happier-days rozetimiz döner --- */
+.info-home-section:before { display: none !important; }
+
+/* --- Ürünler: seçili yoğurdun altındaki gri elips/blob kalktı (metin kalıyor) --- */
+.yogurt-section .circle-yogurt-info {
+  background: none !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  animation: none !important;
+  border-radius: 0 !important;
+}
+
+/* --- OUR STORY revizeleri --- */
+/* Yeni kalp görseli */
+.heart-section .wrapper:before {
+  background-image: url(/wp-content/uploads/revize/story-heart.png) !important;
+  background-size: contain !important;
+}
+/* Kalbin altındaki Yo-Chi maskotu kaldırıldı */
+.chi-bear-plain { display: none !important; }
+/* Zarf görseliyle çakışan eski Yo-Chi arka planı kaldırıldı */
+div.sub-intro { background: none !important; }
+
+/* --- CONTACT revizeleri --- */
+/* Careers / Frenchise kutularında görsel geriliyordu: oranı koruyarak doldur */
+.link-box-chi-club .row {
+  background-size: cover !important;
+  background-position: center !important;
+}
+/* FAQ yanındaki görsel kalktı -> akordiyon tam genişlik */
+.faq-section .grid-box.row-2-1 { display: block !important; }
+.faq-section .grid-box.row-2-1 .container { width: 100% !important; max-width: 100% !important; }
+
+/* --- Kasende ne var kartları: yazı kartın içinde kalsın ve okunsun --- */
+.home-menu-slider .swiper-slide { position: relative; }
+/* yazıyı kartın içine al: eskiden top:-20px ile üstten taşıyordu */
+.home-menu-slider .swiper-slide > a {
+  display: flex; align-items: flex-start; height: 100%;
+  padding: 26px 30px 0; box-sizing: border-box;
+}
+.home-menu-slider .swiper-slide > a:after {
+  content: ''; position: absolute; left: 0; right: 0; top: 0; height: 58%;
+  background: linear-gradient(to bottom, rgba(0,0,0,.45), rgba(0,0,0,0));
+  pointer-events: none; z-index: 0;
+}
+.home-menu-slider .swiper-slide.light > a:after {
+  background: linear-gradient(to bottom, rgba(255,255,255,.78), rgba(255,255,255,0));
+}
+.home-menu-slider .swiper-slide .text-box {
+  position: relative; z-index: 1; top: 0 !important; width: 88% !important;
+}
+/* line-height font-size'dan küçüktü; iki satırlık başlıklar üst üste biniyordu */
+.home-menu-slider .swiper-slide .title-text {
+  font-size: clamp(22px, 2vw, 30px) !important;
+  line-height: 1.14 !important;
+  margin: 0 0 6px !important;
+}
+.home-menu-slider .swiper-slide p { margin: 0 !important; line-height: 1.45; }
+
+/* Swoosh oklar yatay olduğu için kare kutularda incelip kayboluyordu */
+.toppings-next:after, .environment-next:after,
+.toppings-prev:before, .environment-prev:before {
+  width: 64px !important;
+  height: 26px !important;
+}
+
+/* --- Form alanları yeni mavi zemine geçtiği için beyaz yazı okunmuyordu --- */
+.wpcf7-form input.wpcf7-text,
+.wpcf7-form textarea,
+.wpcf7-form select { color: #182844 !important; }
+.wpcf7-form input.wpcf7-text::placeholder,
+.wpcf7-form textarea::placeholder { color: #182844 !important; opacity: .72 !important; }
+
+/* --- Story: kalp metni daha iyi sarsın --- */
+.heart-section .wrapper:before { width: 128% !important; height: 128% !important; margin-left: -14% !important; top: -7%; }
+.heart-section .heart-box { width: 66%; }
+@media (max-width: 760px) { .heart-section .heart-box { width: 84%; } }
