@@ -116,6 +116,18 @@ $yj_sauces = [
     ['g' => 'sauce', 'img' => 'urunler/sauce_antep.png', 'color' => '#a5a11b', 'name' => ['tr' => 'Antep Fıstıklı Sos', 'en' => 'Pistachio']],
 ];
 
+/* ---- Görseli sunucuda bulunmayan ürünleri gizle (kırık görsel çıkmasın).
+        Eksik görsel wp-content/uploads/urunler/ içine eklenince ürün kendiliğinden geri gelir. ---- */
+$yj_has_img = function ($p) {
+    return !empty($p['img']) && is_file(__DIR__ . '/wp-content/uploads/' . $p['img']);
+};
+foreach (['yj_og', 'yj_seasonal', 'yj_lto', 'yj_toppings', 'yj_fruits', 'yj_sauces'] as $yj_k) {
+    if (isset($$yj_k) && is_array($$yj_k)) {
+        $$yj_k = array_values(array_filter($$yj_k, $yj_has_img));
+    }
+}
+
+
 /* Topping ve sos önizlemelerinde, seçili ürünün adı altında gösterilen kısa açıklamalar. */
 $yj_item_descriptions = [
     'fruit:Honey & Flaxseed Granola' => ['tr' => '', 'en' => 'Crunchy oats and flaxseed providing fibre and plant-based omega-3s.'],

@@ -36,14 +36,11 @@ $yj_switch_label = $yj_lang === 'en' ? 'TR' : 'EN';
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<title><?= yj_h($yj_t(['tr' => 'Yo-Ji · Dondurulmuş Yoğurt & Açaí', 'en' => 'Yo-Ji · Frozen Yogurt & Açaí'])) ?></title>
 <link data-rocket-prefetch href="https://fonts.googleapis.com" rel="dns-prefetch">
-<link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
-<link data-rocket-prefetch href="https://amplify.review-alerts.com" rel="dns-prefetch">
 <link data-rocket-preload as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&#038;display=swap" rel="preload">
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&#038;display=swap" media="print" onload="this.media=&#039;all&#039;" rel="stylesheet">
 <noscript data-wpr-hosted-gf-parameters=""><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&#038;display=swap"></noscript><link rel="preload" data-rocket-preload as="image" href="https://yoji.com.tr/wp-content/uploads/2026/09/teamp-banner-bkg-scaled.jpg" fetchpriority="high">
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
 	<meta name="description" content="<?= yj_h($yj_t(['tr' => 'Kendi tarzında, self-servis dondurulmuş yoğurt ve açaí. Kaseni seç; en sevdiğin meyve, topping ve soslarla tamamla.', 'en' => 'Self-serve frozen yogurt and açaí, made your way. Choose your base, add your favourite fruit, toppings and sauces.'])) ?>" />
 	<link rel="canonical" href="https://yoji.com.tr/" />
 	<meta property="og:locale" content="en_US" />
@@ -67,10 +64,7 @@ $yj_switch_label = $yj_lang === 'en' ? 'TR' : 'EN';
 
 
 <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://yoji.com.tr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fyoji.com.tr%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://yoji.com.tr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fyoji.com.tr%2F&#038;format=xml" />
-
-		<style id="wp-img-auto-sizes-contain-inline-css">
+<style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 </style>
@@ -99,7 +93,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <script id="jquery-migrate-js" src="https://yoji.com.tr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
 
 
-<link rel="https://api.w.org/" href="https://yoji.com.tr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://yoji.com.tr/wp-json/wp/v2/pages/90" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://yoji.com.tr/xmlrpc.php?rsd" />
+
 <meta name="generator" content="WordPress 7.1.2" />
 <link rel='shortlink' href='https://yoji.com.tr/' />
 <link rel="icon" href="https://yoji.com.tr/wp-content/uploads/2025/03/favcion-v2-150x150.png" sizes="32x32" />

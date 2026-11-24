@@ -207,6 +207,8 @@ Plans. Deadlines. Decisions. Rules. All the things we should do, shouldn't do, s
 
 
 
+<?php include 'partials/popup.php'; ?>
+
 <?php
 include 'footer.php';
 ?>

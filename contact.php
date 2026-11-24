@@ -49,7 +49,18 @@ include 'header.php';
 
 <!-- WhatsApp formu: data-whatsapp = ülke kodu ile başlayan numara, + ve boşluk olmadan (örn. 905551112233) -->
 <div class="wpcf7">
+<!-- CF7 çekirdeği bu bloğu arıyor; yoksa null hatası veriyor. Ekran okuyucular için de doğru. -->
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p><ul></ul></div>
 <form class="wpcf7-form" id="yj-wa-form" data-whatsapp="90XXXXXXXXXX" aria-label="Contact form" novalidate>
+<!-- Temadaki CF7 koşullu-alan betiği .wpcf7-form sınıflı her formu başlatmaya çalışıyor.
+     Bu form gerçek bir CF7 formu olmadığı için aşağıdaki boş yapılandırma veriliyor;
+     betik hata vermek yerine sessizce devre dışı kalır. -->
+<input type="hidden" name="_wpcf7cf_options" value='{"form_id":0,"conditions":[],"settings":{"animation":"no-animation","animation_intime":0,"animation_outtime":0}}' />
+<input type="hidden" name="_wpcf7cf_hidden_group_fields" value="[]" />
+<input type="hidden" name="_wpcf7cf_hidden_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_visible_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_repeaters" value="[]" />
+<input type="hidden" name="_wpcf7cf_steps" value="[]" />
 <p><b><?= yj_h($yj_t(['tr' => 'Merhaba!', 'en' => 'Hi there!'])) ?></b><br />
 <?= yj_h($yj_t(['tr' => 'Adım', 'en' => 'My name is'])) ?> <span class="wpcf7-form-control-wrap"><input size="40" maxlength="80" class="wpcf7-form-control wpcf7-text your-name" aria-required="true" placeholder="<?= yj_h($yj_t(['tr' => 'Adın', 'en' => 'Your name'])) ?>" value="" type="text" name="name" autocomplete="name" /></span><br />
 <?= yj_h($yj_t(['tr' => 've yo-ekibiyle şunun hakkında konuşmak istiyorum:', 'en' => 'and I want to chat to the yo-team about'])) ?> <span class="wpcf7-form-control-wrap"><select class="wpcf7-form-control wpcf7-select limit contact-subject" aria-required="true" name="subject">
@@ -62,6 +73,7 @@ include 'header.php';
 <p><span class="wpcf7-form-control-wrap"><textarea cols="40" rows="10" maxlength="1000" class="wpcf7-form-control wpcf7-textarea your-message" aria-required="true" placeholder="<?= yj_h($yj_t(['tr' => 'Mesajım...', 'en' => 'My message is...'])) ?>" name="message"></textarea></span>
 <span class="send-btn"><input class="wpcf7-form-control wpcf7-submit" type="submit" value="<?= yj_h($yj_t(['tr' => 'Gönder', 'en' => 'Send'])) ?>" /></span>
 </p>
+<div class="wpcf7-response-output" aria-hidden="true"></div>
 <p class="form-processing"><?= yj_h($yj_t(['tr' => 'WhatsApp açılıyor...', 'en' => 'Opening WhatsApp...'])) ?>
 </p>
 <p class="form-success" role="status" aria-live="polite"><?= yj_h($yj_t(['tr' => 'Teşekkürler! WhatsApp açılıyor, oradan göndere basman yeter.', 'en' => 'Thank you! WhatsApp is opening, just press send there.'])) ?>
@@ -265,6 +277,12 @@ include 'header.php';
   if (!form) return;
   form.addEventListener('submit', function (e) {
     e.preventDefault();
+    /* Temadaki CF7 çekirdeği de bu forma submit dinleyicisi bağlıyor ve forma
+       'submitting' sınıfı ekliyor; WordPress olmadığı için o sınıf hiç kalkmıyor
+       ve tema CSS'i alanları gizli bırakıyor. Kendi dinleyicimiz önce kayıtlı
+       olduğu için burada zinciri kesiyoruz. */
+    e.stopImmediatePropagation();
+    form.classList.remove('submitting');
     var f = form.elements, first = null;
     ['name', 'message'].forEach(function (n) {
       var bad = !f[n].value.trim();

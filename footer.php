@@ -1,5 +1,3 @@
-<div style="display: none;" data-wpr-lazyrender="1" class="amplify-widget" data-token="MTMyNzE6eFIzbVlLb19tcG9nZG04OHRqRGt0Q1ZwWmFj" data-widget-id="13271" data-widget-type="teaser"></div>
-
 <footer class="yj-footer" data-wpr-lazyrender="1">
   <div class="yj-footer__main">
     <span class="yj-footer__blob b1" aria-hidden="true"></span>
@@ -54,8 +52,6 @@
 <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/yochi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
-<!-- Custom Feeds for Instagram JS -->
-
 <script id="wp-hooks-js" src="https://yoji.com.tr/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
 <script id="wp-i18n-js" src="https://yoji.com.tr/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
 
@@ -72,16 +68,26 @@ var cf7mls_object = {"ajax_url":"https://yoji.com.tr/wp-json/","is_rtl":"","disa
 //# sourceURL=cf7mls-js-extra
 </script>
 
-<script id="sbi_scripts-js-extra">
-var sb_instagram_js_options = {"font_method":"svg","resized_url":"https://yoji.com.tr/wp-content/uploads/sb-instagram-feed-images/","placeholder":"https://yoji.com.tr/wp-content/plugins/instagram-feed-pro/img/placeholder.png","br_adjust":"1"};
-var sbiTranslations = {"share":"Share"};
-//# sourceURL=sbi_scripts-js-extra
-</script>
-<script id="sbi_scripts-js" src="https://yoji.com.tr/wp-content/plugins/instagram-feed-pro/js/sbi-scripts.min.js?ver=6.13.1"></script>
-
-
-<script type="text/javascript" src=https://amplify.review-alerts.com/widget-init.js></script>
 <!-- Tema JS paketi (Swiper, AOS + init, main.js). Kaynak tema klasöründe, cache bağımsız. -->
-<script src="https://yoji.com.tr/wp-content/themes/yochi/js/yochi-bundle.js" defer></script></body>
+<script src="https://yoji.com.tr/wp-content/themes/yochi/js/yochi-bundle.js" defer></script>
+<!-- Bundle'daki CF7 çekirdeği wpcf7.cached=1 ile geliyor ve sayfa yüklenince
+     WordPress REST'ine "refill" isteği atıyor. Düz PHP sitede böyle bir uç nokta
+     olmadığı için HTML dönüyor ve konsola JSON hatası düşüyor. Kapatıyoruz.
+     (defer olduğu için bundle DOMContentLoaded'dan önce çalışır, load'dan önce yetişiriz.) -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  if (!window.wpcf7) return;
+  wpcf7.cached = 0;  /* önbellek "refill" isteğini kapat */
+  /* Bundle'daki CF7 çekirdeği .wpcf7-form sınıflı formları başlatıp WordPress
+     REST'ine istek atıyor (bu sitede WP yok -> JSON hatası) ve forma kalıcı
+     'submitting' sınıfı ekleyebiliyor. CF7'nin DOMContentLoaded dinleyicisi
+     bizimkinden SONRA çalıştığı için sınıfı bu tik boyunca kaldırıp aynı frame
+     içinde geri veriyoruz: CF7 formu görmez, görsel olarak hiçbir şey değişmez. */
+  var w = document.querySelectorAll('.wpcf7');   /* CF7 çekirdeği ".wpcf7 > form" ile arıyor */
+  if (!w.length) return;
+  w.forEach(function (el) { el.classList.remove('wpcf7'); });
+  setTimeout(function () { w.forEach(function (el) { el.classList.add('wpcf7'); }); }, 0);
+});
+</script></body>
 
 </html>
