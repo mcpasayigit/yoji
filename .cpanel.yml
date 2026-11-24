@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    # public_html yolunu KENDİ hesabına göre düzelt (cPanel > Domains'te görünür):
+    - export DEPLOYPATH=/home/KULLANICIADI/public_html/
+    # Kopyalar/günceller, fazlalıkları SİLMEZ; .git, deploy ve .htaccess hariç:
+    - /usr/bin/rsync -a --exclude='.git' --exclude='.cpanel.yml' --exclude='README.md' --exclude='.htaccess' ./ "$DEPLOYPATH"
