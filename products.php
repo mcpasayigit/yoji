@@ -581,7 +581,7 @@ $yj_info = [
                     <?php if ($yj_lang === 'en'): ?>FROZEN <span class="underlined" data-aos="line-text"><b>YOGURTS</b></span>
                     <?php else: ?>DONDURULMUŞ <span class="underlined" data-aos="line-text"><b>YOĞURT</b></span><?php endif; ?>
                 </h4>
-                <div class="description"><p><?= $yj_t(['tr' => 'İmza yumuşak dondurulmuş yoğurtlarımız,<br>yıl boyunca hep burada.', 'en' => 'Our signature soft-serve frozen yogurts,<br>available all year round.']) ?></p></div>
+                <div class="description"><p><?= $yj_t(['tr' => 'Bize özel frozen yogurt lezzetleri,<br>dört mevsim seninle.', 'en' => 'Our signature soft-serve frozen yogurts,<br>available all year round.']) ?></p></div>
                 <div class="grid-box row-3 mobile-slider">
                     <?php foreach ($yj_og as $p) $yj_row($p); ?>
                 </div>
